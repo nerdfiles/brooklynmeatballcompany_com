@@ -1,5 +1,11 @@
 nav.site-nav
+  @extend .row
+  box-shadow: 0 -5px 0 #f1f1f1
+  border-top: 5px #e1e1e1 solid
+  background: url('/brooklynmeatballcompany_com/wp-content/themes/brooklynmeatballcompany_com/assets/images/ui-stripes-01.png') 0 40px repeat-x
   .menu-primary-menu-container
+    @extend .columns
+    @extend .twelve
     margin: 30px 0 70px
     #menu-primary-menu
       @extend .row
@@ -8,9 +14,13 @@ nav.site-nav
         @extend .three
         text-align: center
         a
+          display: block
+          background: #fff
           color: #222
           font-size: 30px
           font-family: lobster, serif
+          &:hover
+            color: #000
           &:visited
             color: #222
       li.menu-item 
