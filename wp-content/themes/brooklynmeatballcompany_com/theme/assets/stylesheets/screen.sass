@@ -32,6 +32,7 @@ h1
 
   section.site-content
     // padding: 20px
+    @extend .row
 
     h2
       text-align: center
@@ -42,6 +43,32 @@ h1
         color: #777
         &:visited
           color: #777
+    
+    div.home,
+    div.single
+      margin-top: 30px
+
+    // two wide columns
+
+    div.home
+      background: #fff
+      h2
+        @extend .columns
+        @extend .six
+      div.page
+        @extend .columns
+        @extend .six
+
+    // asymmetrical columns
+
+    div.single 
+      background: #fff
+      h2
+        @extend .columns
+        @extend .four
+      div.page
+        @extend .columns
+        @extend .eight
 
     @import "page"
     @import "post"

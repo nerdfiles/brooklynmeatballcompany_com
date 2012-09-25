@@ -4,9 +4,10 @@
 
   %body(class="base-template")
     .page-wrapper
+      %nav.site-access= render_partial("layouts/access")
       %header.site-header= render_partial("layouts/header")
       %nav.site-nav= render_partial("layouts/nav")
-      %section.site-content= yield()
+      %section.site-content#content= yield()
       %footer.site-footer= render_partial("layouts/footer")
       /= javascript_include_tag("http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js")
       /= javascript_include_tag("application")

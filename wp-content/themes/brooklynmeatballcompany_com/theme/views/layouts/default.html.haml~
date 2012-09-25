@@ -4,6 +4,7 @@
 
   %body(class="base-template")
     .page-wrapper
+      %nav.site-access= render_partial("layouts/access")
       %header.site-header= render_partial("layouts/header")
       %nav.site-nav= render_partial("layouts/nav")
       %section.site-content= yield()
