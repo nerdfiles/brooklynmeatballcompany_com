@@ -11,26 +11,38 @@ nav.site-nav
     #menu-primary-menu
       @extend .row
       li
+      li.menu-item
         @extend .columns
         @extend .three
         text-align: center
         a
           display: block
           background: #fff
-          color: #222
+          color: #999
           font-size: 30px
-          font-family: lobster, serif
-          &:hover
-            opacity: .6
-            color: #000
+          font-family: lobster, Arial
+          &:link
+            color: #999
           &:visited
-            color: #222
-      li.menu-item 
+            color: #999
+          &:hover
+            color: #000
+          &:active
+            color: #E91914
       li.menu-item-type-post_type 
       li.menu-item-object-page 
       li.current-menu-item 
         a
-          color: #c30
+          color: #E91914
+          &:link
+            color: #E91914
+          &:visited
+            color: #E91914
+          &:hover
+            background: transparent
+            color: #222
+          &:active
+            color: #222
       li.page_item 
       li.current_page_item 
 

@@ -39,13 +39,12 @@ h1
 
     h2
       text-align: center
-      font-size: 20px
       margin-bottom: 20px
-      color: #777
+      color: #222
       a
-        color: #777
+        color: #222
         &:visited
-          color: #777
+          color: #222
 
     // defaults
 
@@ -76,34 +75,51 @@ h1
     .home
       background: #fff
       // @extend .row
+      border: 2px #EA1E2A solid
+      box-shadow: 5px 5px 0 #EA1E2A
       h2
-        background: #fff
+        font-size: 24px
         // @extend .columns
         // @extend .six
-        padding: 50px 
-        border: 2px #c30 solid
-        box-shadow: 5px 5px 0 #c30
+        padding: 20px 
         a
           font-variant: small-caps
           text-transform: lowercase
-          color: #c30
+          color: #EA1E2A
           &:visited
             color: #222
           &:hover
             color: #222
       .page
         background: #fff
+        @include cf
         // @extend .columns
         // @extend .five
         // @extend .offset-by-one
-
-        h3
-          font-size: 32px
+        .content
+          @extend .row
+          background: #fff
+          color: #E91914
+          p:nth-child(1n)
+            @extend .columns
+            @extend .six
+          p:nth-child(2n)
+            text-align: right
+            @extend .columns
+            @extend .six
+          h3
+            text-align: center
+            font-size: 20px
+            color: #E91914
 
     .single 
       background: #fff
       // @extend .row
       h2
+        margin-top: 0
+        font-size: 32px
+        letter-spacing: 5px
+        font-family: lobster, Arial
         background: #fff
         // @extend .columns
         // @extend .four
