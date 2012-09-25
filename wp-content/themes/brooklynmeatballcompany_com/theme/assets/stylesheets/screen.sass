@@ -26,6 +26,8 @@ h1
   font-size: 13px
   color: #333
 
+  @import "site_access"
+
   @import "site_header"
 
   @import "site_nav"
@@ -46,6 +48,7 @@ h1
     
     div.home,
     div.single
+      @include cf
       margin-top: 30px
 
     // two wide columns
@@ -55,6 +58,8 @@ h1
       h2
         @extend .columns
         @extend .six
+        border: 2px #c30 solid
+        box-shadow: 5px 5px 0 #c30
       div.page
         @extend .columns
         @extend .six
