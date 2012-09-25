@@ -32,7 +32,88 @@ h1
 
   @import "site_nav.sass"
 
-  @import "site_content.sass"
+  // @import "site_content.sass"
+
+  section.site-content
+    background: #fff
+
+    h2
+      text-align: center
+      font-size: 20px
+      margin-bottom: 20px
+      color: #777
+      a
+        color: #777
+        &:visited
+          color: #777
+
+    // defaults
+
+    .post,
+    .page
+      margin-bottom: 20px
+
+      header
+        margin-bottom: 10px
+
+      .content
+        background: #fff
+        h3
+          color: #999
+          font-size: 16px
+          font-weight: bold
+          a
+            color: #355593
+            text-decoration: none
+
+    // templates
+
+    .home,
+    .single
+      background: #fff
+      margin-top: 30px
+
+    .home
+      background: #fff
+      @extend .row
+      h2
+        background: #fff
+        @extend .columns
+        @extend .six
+        padding: 50px 
+        border: 2px #c30 solid
+        box-shadow: 5px 5px 0 #c30
+        a
+          font-variant: small-caps
+          text-transform: lowercase
+          color: #c30
+          &:visited
+            color: #ccc
+          &:hover
+            color: #222
+      .page
+        background: #fff
+        @extend .columns
+        @extend .five
+        @extend .offset-by-one
+
+        h3
+          font-size: 32px
+
+    .single 
+      background: #fff
+      @extend .row
+      h2
+        background: #fff
+        @extend .columns
+        @extend .four
+      .page
+        background: #fff
+        @extend .columns
+        @extend .eight
+
+        h3
+          font-size: 24px
 
   @import "site_footer.sass"
 
