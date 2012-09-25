@@ -1,0 +1,8 @@
+/* Compiled by Sprockets using therubyracer (V8) */
+(function() {
+
+  $(function() {
+    return "Yep, it works!";
+  });
+
+}).call(this);

@@ -1,0 +1,19 @@
+/ Charset
+%meta(charset="utf-8")
+
+/ Title
+%title= get_page_title(bloginfo('name'), " – ")
+
+/ Stylesheets
+= stylesheet_link_tag("screen")
+
+= javascript_include_tag("http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.1/modernizr.min.js")
+
+= javascript_include_tag("http://use.edgefonts.net/lobster.js")
+
+/ HTML5 Shiv
+/[if lt IE 9]
+  = javascript_include_tag("http://html5shiv.googlecode.com/svn/trunk/html5.js")
+
+- wp_head()
+

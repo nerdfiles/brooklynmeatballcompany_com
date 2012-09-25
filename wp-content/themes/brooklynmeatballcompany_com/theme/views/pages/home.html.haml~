@@ -1,0 +1,4 @@
+%h2 di
+- the_post()
+= render_partial("pages/page")
+

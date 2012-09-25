@@ -1,0 +1,2 @@
+%nav.access
+  - wp_nav_menu()

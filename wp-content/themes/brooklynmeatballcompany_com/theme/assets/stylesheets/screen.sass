@@ -1,0 +1,52 @@
+@charset "utf-8"
+
+// Project
+
+@import "_settings.sass"
+@import "_utils.sass"
+
+// Compass
+
+@import "compass/reset"
+
+// Foundation Extension to Compass
+
+@import "app.sass"
+
+// +global-reset
+
+body
+  background-color: #fff
+
+h1
+  font-family: Helvetica, sans-serif
+
+.page-wrapper
+  font-family: Helvetica, sans-serif
+  font-size: 13px
+  color: #333
+
+  @import "site_header"
+
+  @import "site_nav"
+
+  section.site-content
+    // padding: 20px
+
+    h2
+      text-align: center
+      font-size: 20px
+      margin-bottom: 20px
+      color: #777
+      a
+        color: #777
+        &:visited
+          color: #777
+
+    @import "page"
+    @import "post"
+  
+  @import "site_footer"
+
+
+
