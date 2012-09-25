@@ -1,5 +1,5 @@
-.
-  %h2= link_to(get_the_title(), get_permalink())
+.home.row
+  %h2.columns.six= link_to(get_the_title(), get_permalink())
   - the_post()
-  = render_partial("pages/page")
+  = render_partial("pages/home")
 
