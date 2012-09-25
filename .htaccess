@@ -3,7 +3,7 @@ RewriteEngine On
 
 # DirectoryIndex index.html index.php
 #AddType x-mapp-php5 .php .html .htm
-AddType text/css .css 
+AddType text/css .css
 AddDefaultCharset utf-8
 
 # BEGIN WordPress
@@ -17,5 +17,3 @@ RewriteRule . /brooklynmeatballcompany_com/index.php [L]
 </IfModule>
 
 # END WordPress
-
-

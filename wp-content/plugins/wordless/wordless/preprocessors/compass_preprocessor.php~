@@ -106,6 +106,9 @@ class CompassPreprocessor extends WordlessPreprocessor {
       }
     }
 
+    // @notes Added zurb-foundation; need to figure out how to extend
+    // $ruby_config[] = sprintf('%s "%s"', 'require', 'zurb-foundation');
+
     $config_path = tempnam($temp_path, 'compass_config');
     file_put_contents($config_path, implode("\n", $ruby_config)."\n");
 
