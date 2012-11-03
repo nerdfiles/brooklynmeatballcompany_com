@@ -1,0 +1,59 @@
+@import "_settings.sass"
+@import "_utils.sass"
+
+.wpcf7-form
+  background: #fff
+  .input
+    margin: 0 0 20px
+    position: relative
+  label
+    font: 16px lobster, Arial
+    color: #222
+    display: block
+    margin: 0 0 15px 0
+  input,
+  textarea
+    border: 2px $mainColor solid
+    box-shadow: 5px 5px 0 $mainColor
+  input.wpcf7-submit
+    opacity: .6
+    border: 2px $mainColor solid
+    font: 24px lobster, Arial
+    padding: 15px 35px
+    box-shadow: 5px 5px 0 $mainColor
+    cursor: pointer
+    &:hover
+      opacity: 1
+    &:active
+      border: 2px #000 solid
+      box-shadow: 5px 5px 0 #000
+      opacity: 1
+  .wpcf7-not-valid-tip-no-ajax
+    background: #fff
+    border: 2px solid #EA1E2A
+    box-shadow: 4px 4px 0 #ccc
+    left: 313px
+    padding: 15px 10px
+    position: absolute
+    top: -20px
+    width: 300px
+    color: #222
+
+  .wpcf7-not-valid-tip
+    border: 2px $mainColor solid
+    //color: $mainColor
+    box-shadow: 4px 4px 0 #CCCCCC
+    //font-family: lobster, Arial
+    left: 337px
+    padding: 15px 10px
+    top: -65px
+  .wpcf7-validation-errors
+  .wpcf7-response-output
+    box-shadow: 5px 5px 0 #ccc
+    left: -45%
+    line-height: 1.4
+    padding: 15px
+    position: absolute
+    top: 10%
+    width: 40%
+

@@ -1,0 +1,61 @@
+/*
+Syntax error: File to import not found or unreadable: foundation.
+              Load paths:
+                /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc-theme/compass/sass
+                /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 5 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc-theme/compass/sass/app.sass
+
+1: /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc-theme/compass/sass/app.sass
+
+Backtrace:
+/Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc-theme/compass/sass/app.sass:5
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/import_node.rb:42:in `import'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/import_node.rb:25:in `imported_file'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:227:in `rescue in visit_import'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:232:in `visit_import'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/bin/compass:44:in `call'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/bin/compass:19:in `load'
+/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/bin/compass:19:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load paths:\A                 /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc-theme/compass/sass\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 5 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc-theme/compass/sass/app.sass\A \A 1: /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc-theme/compass/sass/app.sass"; }
