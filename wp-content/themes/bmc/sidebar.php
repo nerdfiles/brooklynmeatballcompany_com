@@ -8,9 +8,9 @@
   <?php   /* Widgetized sidebar, if you have the plugin installed. */
       if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
 
-  <section>
+  <!--section>
     <?php get_search_form(); ?>
-  </section>
+  </section-->
 
   <!-- Author information is disabled per default. Uncomment and fill in your details if you want to use it.
   <section>
@@ -20,7 +20,7 @@
   -->
 
   <?php if ( is_404() || is_category() || is_day() || is_month() || is_year() || is_search() || is_paged() ) { ?> 
-  <section>
+  <!--section>
     
     <?php /* If this is a 404 page */ if (is_404()) { ?>
     <?php /* If this is a category archive */ } elseif (is_category()) { ?>
@@ -47,10 +47,10 @@
 
     <?php } ?>
 
-  </section>
+  </section-->
   <?php }?>
   
-  <nav role="navigation">
+  <!--nav role="navigation">
     <?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
 
     <h2>Archives</h2>
@@ -78,7 +78,7 @@
         </li>
       <?php } ?>
     </ul>
-  </nav><!-- WTF happened here? -->
+  </nav--><!-- WTF happened here? -->
 
       <?php endif; ?>
 </aside>

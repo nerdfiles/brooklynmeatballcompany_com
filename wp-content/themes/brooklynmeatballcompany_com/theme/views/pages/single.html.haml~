@@ -1,5 +1,5 @@
 .single.row
-  %h2.columns.six= link_to(get_the_title(), get_permalink())
+  %h2.columns.four= link_to(get_the_title(), get_permalink())
   - the_post()
   = render_partial("pages/page")
 

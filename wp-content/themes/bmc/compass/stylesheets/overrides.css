@@ -1,0 +1,56 @@
+/* WordPress Required Styles */
+/* line 2, ../sass/overrides.sass */
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 7, ../sass/overrides.sass */
+.alignleft {
+  float: left;
+}
+
+/* line 10, ../sass/overrides.sass */
+.alignright {
+  float: right;
+}
+
+/* line 13, ../sass/overrides.sass */
+.wp-caption {
+  border: 1px solid #dddddd;
+  text-align: center;
+  background-color: #f3f3f3;
+  padding-top: 4px;
+  margin: 10px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 24, ../sass/overrides.sass */
+.wp-caption img {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+
+/* line 29, ../sass/overrides.sass */
+.wp-caption-dd {
+  font-size: 11px;
+  line-height: 17px;
+  padding: 0 4px 5px;
+  margin: 0;
+}
+
+/* line 35, ../sass/overrides.sass */
+.sticky {
+  background: #f7f7f7;
+  padding: 0 10px 10px;
+}
+
+/* line 39, ../sass/overrides.sass */
+.sticky h2 {
+  padding-top: 10px;
+}

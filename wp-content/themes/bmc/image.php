@@ -6,19 +6,26 @@
 
 get_header(); ?>
 
-  <div id="main">
+  <div id="main" role="main" class="single row">
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
     <article id="post-<?php the_ID(); ?>">
-      <header>
+
+      <header class="columns four">
         <h2><a href="<?php echo get_permalink($post->post_parent); ?>" rev="attachment"><?php echo get_the_title($post->post_parent); ?></a> &raquo; <?php the_title(); ?></h2>
       </header>
       
       <p class="attachment"><a href="<?php echo wp_get_attachment_url($post->ID); ?>"><?php echo wp_get_attachment_image( $post->ID, 'medium' ); ?></a></p>
       <p class="caption"><?php if ( !empty($post->post_excerpt) ) the_excerpt(); // this is the "caption" ?></p>
 
-      <?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>
+      <div class="page columns eight">
+        <div class="content">
+
+        <?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>
+
+        </div>
+      </div>
 
       <nav>
         <div><?php previous_image_link() ?></div>
@@ -50,6 +57,7 @@ get_header(); ?>
           <?php } edit_post_link('Edit this entry.','',''); ?>
         </p>
       </footer>
+
     </article>
 
   <?php comments_template(); ?>
