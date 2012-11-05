@@ -184,22 +184,29 @@ h1
 
 ///////////////////////////////////////// pages
 
+sup
+  font-size: .6em
+  text-transform: lowercase
+  font-variant: small-caps
+
 body#our-menu 
   .content 
     h1 
       margin-top: 1em
       margin-bottom: 1em
     dl
-      //@extend .row
+      @extend .row
       dt
         background: #ccc
         border-bottom: 1px #fff solid
         font-weight: 700
-        @extend .ten
+        padding: 5px 7px
         @extend .columns
+        @extend .five
       dd
-        @extend .ten
         @extend .columns
+        @extend .five
+        padding: 5px 10px
       dd:nth-child(2n+1)
         clear: left
 

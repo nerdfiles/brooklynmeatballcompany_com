@@ -17,3 +17,6 @@ sitemap.xml
 sitemap.xml.gz
 readme.html
 license.txt
+
+wp-content/w3-total-cache-config.php
+wp-content/w3tc/objectcache/*

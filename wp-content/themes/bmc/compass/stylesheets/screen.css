@@ -1081,7 +1081,7 @@ form.custom .custom.disabled {
 }
 
 /* line 23, ../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/_grid.scss */
-.five, .row .five, .page-wrapper header.site-header .five, .page-wrapper nav.site-nav .five, .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu .five, .page-wrapper section.site-content .home .five, .page-wrapper section.site-content .home .page .content .five, .page-wrapper section.site-content .single .five, .page-wrapper footer.site-footer .five, body#our-menu .content dl .five {
+.five, .row .five, .page-wrapper header.site-header .five, .page-wrapper nav.site-nav .five, .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu .five, .page-wrapper section.site-content .home .five, .page-wrapper section.site-content .home .page .content .five, .page-wrapper section.site-content .single .five, .page-wrapper footer.site-footer .five, body#our-menu .content dl .five, body#our-menu .content dl dt, body#our-menu .content dl dd {
   width: 41.66667%;
 }
 
@@ -1096,7 +1096,7 @@ form.custom .custom.disabled {
 }
 
 /* line 23, ../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/_grid.scss */
-.eight, .row .eight, .page-wrapper header.site-header .eight, .page-wrapper nav.site-nav .eight, .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu .eight, .page-wrapper section.site-content .home .eight, .page-wrapper section.site-content .home .page .content .eight, .page-wrapper section.site-content .single .eight, .page-wrapper footer.site-footer .eight, body#our-menu .content dl .eight, body#our-menu .content dl dt, body#our-menu .content dl dd {
+.eight, .row .eight, .page-wrapper header.site-header .eight, .page-wrapper nav.site-nav .eight, .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu .eight, .page-wrapper section.site-content .home .eight, .page-wrapper section.site-content .home .page .content .eight, .page-wrapper section.site-content .single .eight, .page-wrapper footer.site-footer .eight, body#our-menu .content dl .eight {
   width: 66.66667%;
 }
 
@@ -2847,7 +2847,7 @@ div.orbit-wrapper span.rotator {
   position: absolute;
   top: 0;
   left: -20px;
-  background: url('/images/foundation/orbit/rotator-black.png?1352087950') no-repeat;
+  background: url('/images/foundation/orbit/rotator-black.png?1352116230') no-repeat;
   z-index: 3;
 }
 /* line 27, ../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_orbit.scss */
@@ -2869,7 +2869,7 @@ div.orbit-wrapper span.mask {
 div.orbit-wrapper span.mask.move {
   width: 40px;
   left: 0;
-  background: url('/images/foundation/orbit/timer-black.png?1352087950') repeat 0 0;
+  background: url('/images/foundation/orbit/timer-black.png?1352116230') repeat 0 0;
 }
 /* line 32, ../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper span.pause {
@@ -2879,13 +2879,13 @@ div.orbit-wrapper span.pause {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('/images/foundation/orbit/pause-black.png?1352087950') no-repeat;
+  background: url('/images/foundation/orbit/pause-black.png?1352116230') no-repeat;
   z-index: 4;
   opacity: 0;
 }
 /* line 33, ../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper span.pause.active {
-  background: url('/images/foundation/orbit/pause-black.png?1352087950') no-repeat 0 -40px;
+  background: url('/images/foundation/orbit/pause-black.png?1352116230') no-repeat 0 -40px;
 }
 /* line 35, ../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper span.pause.active {
@@ -2932,24 +2932,24 @@ div.orbit-wrapper div.slider-nav span {
 }
 /* line 48, ../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow.png?1352087950');
+  background: url('/images/foundation/orbit/right-arrow.png?1352116230');
   background-size: 100%;
   right: 0;
 }
 /* line 49, ../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow.png?1352087950');
+  background: url('/images/foundation/orbit/left-arrow.png?1352116230');
   background-size: 100%;
   left: 0;
 }
 
 /* line 54, ../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_orbit.scss */
 .lt-ie9 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow-small.png?1352087950');
+  background: url('/images/foundation/orbit/right-arrow-small.png?1352116230');
 }
 /* line 55, ../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-3.2.0/scss/foundation/components/modules/_orbit.scss */
 .lt-ie9 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow-small.png?1352087950');
+  background: url('/images/foundation/orbit/left-arrow-small.png?1352116230');
 }
 
 /* Bullet Nav ---------------------- */
@@ -2970,7 +2970,7 @@ ul.orbit-bullets li {
   cursor: pointer;
   color: #999999;
   text-indent: -9999px;
-  background: url('/images/foundation/orbit/bullets.jpg?1352087950') no-repeat 4px 0;
+  background: url('/images/foundation/orbit/bullets.jpg?1352116230') no-repeat 4px 0;
   width: 13px;
   height: 12px;
   overflow: hidden;
@@ -7377,8 +7377,13 @@ body#our-menu .content dl dt {
   background: #cccccc;
   border-bottom: 1px white solid;
   font-weight: 700;
+  padding: 5px 7px;
 }
-/* line 203, ../sass/screen.sass */
+/* line 201, ../sass/screen.sass */
+body#our-menu .content dl dd {
+  padding: 5px 10px;
+}
+/* line 205, ../sass/screen.sass */
 body#our-menu .content dl dd:nth-child(2n+1) {
   clear: left;
 }

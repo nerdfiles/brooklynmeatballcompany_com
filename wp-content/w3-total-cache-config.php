@@ -1,7 +1,7 @@
 <?php
 
 return array(
-	'dbcache.enabled' => true,
+	'dbcache.enabled' => false,
 	'dbcache.debug' => false,
 	'dbcache.engine' => 'file',
 	'dbcache.file.gc' => 3600,
@@ -20,7 +20,7 @@ return array(
 		1 => 'wp_rg_',
 	),
 	'dbcache.lifetime' => 180,
-	'objectcache.enabled' => true,
+	'objectcache.enabled' => false,
 	'objectcache.debug' => false,
 	'objectcache.engine' => 'file',
 	'objectcache.file.gc' => 3600,
@@ -48,7 +48,7 @@ return array(
 		2 => 'plugins',
 	),
 	'objectcache.lifetime' => 180,
-	'pgcache.enabled' => true,
+	'pgcache.enabled' => false,
 	'pgcache.debug' => false,
 	'pgcache.engine' => 'file_generic',
 	'pgcache.file.gc' => 3600,
@@ -293,7 +293,7 @@ return array(
 	'varnish.debug' => false,
 	'varnish.servers' => array(
 	),
-	'browsercache.enabled' => true,
+	'browsercache.enabled' => false,
 	'browsercache.no404wp' => false,
 	'browsercache.no404wp.exceptions' => array(
 		0 => 'robots\\.txt',
@@ -509,9 +509,9 @@ return array(
 	'notes.theme_changed' => false,
 	'notes.wp_upgraded' => false,
 	'notes.plugins_updated' => false,
-	'notes.cdn_upload' => false,
+	'notes.cdn_upload' => true,
 	'notes.cdn_reupload' => false,
-	'notes.need_empty_pgcache' => false,
+	'notes.need_empty_pgcache' => true,
 	'notes.need_empty_minify' => false,
 	'notes.need_empty_objectcache' => false,
 	'notes.pgcache_rules_core' => true,
