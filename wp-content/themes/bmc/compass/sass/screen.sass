@@ -148,7 +148,7 @@ h1
 
     .single 
       background: #fff
-      // @extend .row
+      @extend .row
       h2
         margin-top: 0
         font-size: 32px
@@ -186,21 +186,21 @@ h1
 
 body#our-menu 
   .content 
+    h1 
+      margin-top: 1em
+      margin-bottom: 1em
     dl
-      @extend .row
-      padding: 3.5em 0 6.5em
+      //@extend .row
       dt
         background: #ccc
         border-bottom: 1px #fff solid
         font-weight: 700
+        @extend .ten
         @extend .columns
-        @extend .three
       dd
+        @extend .ten
         @extend .columns
-        @extend .three
-        padding-bottom: 35px
-      dt:nth-child(2n+1)
+      dd:nth-child(2n+1)
         clear: left
-
 
 
