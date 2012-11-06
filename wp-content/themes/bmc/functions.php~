@@ -70,21 +70,21 @@ function versioned_resource($relative_url){
 
 // Menu custom type
 
-function bmc_custom_init() {
+function codex_custom_init() {
   $labels = array(
-    'name' => _x('Menus', 'post type general name', 'bmc'),
-    'singular_name' => _x('Book', 'post type singular name', 'bmc'),
-    'add_new' => _x('Add New', 'menu', 'bmc'),
-    'add_new_item' => __('Add New Menu', 'bmc'),
-    'edit_item' => __('Edit Menu', 'bmc'),
-    'new_item' => __('New Menu', 'bmc'),
-    'all_items' => __('All Menus', 'bmc'),
-    'view_item' => __('View Menu', 'bmc'),
-    'search_items' => __('Search Menus', 'bmc'),
-    'not_found' =>  __('No menus found', 'bmc'),
-    'not_found_in_trash' => __('No menus found in Trash', 'bmc'), 
+    'name' => _x('Books', 'post type general name', 'your_text_domain'),
+    'singular_name' => _x('Book', 'post type singular name', 'your_text_domain'),
+    'add_new' => _x('Add New', 'book', 'your_text_domain'),
+    'add_new_item' => __('Add New Book', 'your_text_domain'),
+    'edit_item' => __('Edit Book', 'your_text_domain'),
+    'new_item' => __('New Book', 'your_text_domain'),
+    'all_items' => __('All Books', 'your_text_domain'),
+    'view_item' => __('View Book', 'your_text_domain'),
+    'search_items' => __('Search Books', 'your_text_domain'),
+    'not_found' =>  __('No books found', 'your_text_domain'),
+    'not_found_in_trash' => __('No books found in Trash', 'your_text_domain'), 
     'parent_item_colon' => '',
-    'menu_name' => __('Menus', 'bmc')
+    'menu_name' => __('Books', 'your_text_domain')
 
   );
   $args = array(
@@ -94,14 +94,14 @@ function bmc_custom_init() {
     'show_ui' => true, 
     'show_in_menu' => true, 
     'query_var' => true,
-    'rewrite' => array( 'slug' => _x( 'menu', 'URL slug', 'bmc' ) ),
-    'capability_type' => 'page',
+    'rewrite' => array( 'slug' => _x( 'book', 'URL slug', 'your_text_domain' ) ),
+    'capability_type' => 'post',
     'has_archive' => true, 
     'hierarchical' => false,
     'menu_position' => null,
     'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
   ); 
-  register_post_type('menu', $args);
+  register_post_type('book', $args);
 }
-add_action( 'init', 'bmc_custom_init' );
+add_action( 'init', 'codex_custom_init' );
 

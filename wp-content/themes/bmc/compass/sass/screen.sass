@@ -281,12 +281,133 @@ blockquote
 
 ///////////////////////////////////////// pages
 
+kbd
+  font-family: monospace
+
+b,strong
+  font-weight: 700
+
 sup
   font-size: .6em
   text-transform: lowercase
   font-variant: small-caps
 
 body#our-menu 
+  footer
+    font-size: 13px
+    font-style: italic
+  #bmc-menu-nav
+    margin: 2em 0 3em
+    background: #e9e9e9
+    border: 1px #ccc solid
+    border-left: 3px #ccc double
+    border-right: 3px #ccc double
+    border-bottom: 3px #ccc double
+    ul
+      background: #fff
+      text-align: center
+      padding: 0
+      margin: 0 2px
+    li
+      display: inline-block
+      a
+        display: block
+        text-decoration: none
+        padding: 15px 30px 12px
+  #bmc-menu-takeout,
+  #bmc-menu-cover
+    text-align: center
+  #bmc-menu-catering
+    dl
+      position: relative
+    dt
+      display: inline-block
+      width: 33%
+      text-align: center
+      position: absolute
+      color: #E91914
+    .sides
+      dl
+        & > dt, 
+        & > dd
+          display: block
+          width: 100%
+          border-bottom: none
+        dl
+          dt, dd
+          dt
+            width: 33%
+            display: inline-block
+          dd
+            width: 33%
+            vertical-align: top
+            display: inline-block
+            border-bottom: 1px #e9e9e9 solid
+
+    .sauces
+      dl
+        dt:nth-child(7)
+          clear: right
+          display: block
+        dd:nth-child(6)
+          float: right
+        dd
+    dd
+      width: 33%
+      padding-top: 2em
+      vertical-align: top
+      display: inline-block
+      padding-bottom: 2em
+      margin-bottom: 1.5em
+      border-bottom: 1px #e9e9e9 solid
+  #bmc-menu-main
+    dl > dt
+      text-transform: uppercase
+    aside
+      color: #999
+      margin-left: 1em
+      p
+        margin: 0 0 0 1em
+      ul
+        margin: 0 0 0 1em
+        padding: 0 0 0 2em
+    dd
+      p:first-child
+        @include grid(12)
+        text-align: left
+        @include alpha
+      p
+        @include grid(6)
+        padding-top: .4em
+        text-align: right
+      ul
+        @include grid(6)
+      ul:last-of-type
+        @include grid(12)
+        @include alpha
+    footer
+      ul:last-child
+    dt
+      color: #E91914
+      font-size: 28px
+  section.menu
+    .lead 
+      text-align: center
+    border-bottom: 1px #ccc solid
+    margin-bottom: 40px
+    padding-bottom: 30px
+    h1
+      font-size: 38px
+      text-transform: uppercase
+      text-align: center
+      letter-spacing: 4px
+    h2
+      text-transform: uppercase
+      color: #E91914
+      margin: 1em 0
+    h3
+      font-weight: 700
+      font-size: 20px
   .content 
     footer 
       font-size: .8em
