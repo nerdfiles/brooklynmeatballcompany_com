@@ -6,24 +6,24 @@
 
 get_header(); ?>
 
-<div id="main" role="main" class="single row">
+<div id="main" role="main" class="single">
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  <article class="page" id="post-<?php the_ID(); ?>">
+  <article id="post-<?php the_ID(); ?>">
 
     <?php edit_post_link('Update <i>' . get_the_title() . '</i>', '<p>', '</p>'); ?>
 
-    <header class="columns four">
+    <header class="">
       <h2><?php the_title(); ?></h2>
     </header>
 
-    <div class="page columns eight">
+    <section class="page">
       <div class="content">
         <?php the_content('<p class="serif">Read the rest of this page &raquo;</p>'); ?>
         <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
       </div>
-    </div>
+    </section>
   
   </article>
   <?php endwhile; endif; ?>

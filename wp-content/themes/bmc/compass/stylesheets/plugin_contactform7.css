@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
 Syntax error: File to import not found or unreadable: foundation/common/ratios.
               Load paths:
                 /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass
@@ -82,3 +83,86 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Syntax error: File to import not found or unreadable: foundation/common/ratios.\A               Load paths:\A                 /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-960-plugin-0.10.4/stylesheets\A                 Compass::SpriteImporter\A         on line 1 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/_settings.sass\A         from line 1 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/plugin_contactform7.sass\A \A 1: /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/plugin_contactform7.sass"; }
+=======
+ * DEBUG setting
+ */
+/*
+ * CSS3 Image Filter Tools
+ */
+/* line 5, ../sass/plugin_contactform7.sass */
+.wpcf7-form {
+  background: white;
+}
+/* line 7, ../sass/plugin_contactform7.sass */
+.wpcf7-form .input {
+  margin: 0 0 20px;
+  position: relative;
+}
+/* line 10, ../sass/plugin_contactform7.sass */
+.wpcf7-form label {
+  font: 16px lobster, Arial;
+  color: #222222;
+  display: block;
+  font-size: 24px;
+  margin: 0 0 15px 0;
+}
+/* line 16, ../sass/plugin_contactform7.sass */
+.wpcf7-form input,
+.wpcf7-form textarea {
+  border: 2px #ea1e2a solid;
+  box-shadow: 5px 5px 0 #ea1e2a;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+}
+/* line 23, ../sass/plugin_contactform7.sass */
+.wpcf7-form input.wpcf7-submit {
+  opacity: 0.6;
+  border: 2px #ea1e2a solid;
+  font: 24px lobster, Arial;
+  padding: 15px 35px;
+  box-shadow: 5px 5px 0 #ea1e2a;
+  cursor: pointer;
+  width: auto;
+}
+/* line 31, ../sass/plugin_contactform7.sass */
+.wpcf7-form input.wpcf7-submit:hover {
+  opacity: 1;
+}
+/* line 33, ../sass/plugin_contactform7.sass */
+.wpcf7-form input.wpcf7-submit:active {
+  border: 2px black solid;
+  box-shadow: 5px 5px 0 black;
+  opacity: 1;
+}
+/* line 37, ../sass/plugin_contactform7.sass */
+.wpcf7-form .wpcf7-not-valid-tip-no-ajax {
+  background: white;
+  border: 2px solid #ea1e2a;
+  box-shadow: 4px 4px 0 #cccccc;
+  left: 313px;
+  padding: 15px 10px;
+  position: absolute;
+  top: -20px;
+  width: 300px;
+  color: #222222;
+}
+/* line 48, ../sass/plugin_contactform7.sass */
+.wpcf7-form .wpcf7-not-valid-tip {
+  border: 2px #ea1e2a solid;
+  box-shadow: 4px 4px 0 #cccccc;
+  left: 337px;
+  padding: 15px 10px;
+  top: -45px;
+}
+/* line 57, ../sass/plugin_contactform7.sass */
+.wpcf7-form .wpcf7-response-output {
+  box-shadow: 5px 5px 0 #cccccc;
+  left: -20px;
+  line-height: 1.4;
+  padding: 15px;
+  position: absolute;
+  top: 10%;
+  width: 30%;
+}
+>>>>>>> dev

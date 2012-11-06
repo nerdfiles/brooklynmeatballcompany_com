@@ -1,6 +1,7 @@
 @import "_settings.sass"
 @import "_utils.sass"
 
+
 .wpcf7-form
   background: #fff
   .input
@@ -10,11 +11,15 @@
     font: 16px lobster, Arial
     color: #222
     display: block
+    font-size: 24px
     margin: 0 0 15px 0
   input,
   textarea
     border: 2px $mainColor solid
     box-shadow: 5px 5px 0 $mainColor
+    width: 100%
+    font-size: 16px
+    padding: 5px
   input.wpcf7-submit
     opacity: .6
     border: 2px $mainColor solid
@@ -22,6 +27,7 @@
     padding: 15px 35px
     box-shadow: 5px 5px 0 $mainColor
     cursor: pointer
+    width: auto
     &:hover
       opacity: 1
     &:active
@@ -46,14 +52,14 @@
     //font-family: lobster, Arial
     left: 337px
     padding: 15px 10px
-    top: -65px
+    top: -45px
   .wpcf7-validation-errors
   .wpcf7-response-output
     box-shadow: 5px 5px 0 #ccc
-    left: -45%
+    left: -20px
     line-height: 1.4
     padding: 15px
     position: absolute
     top: 10%
-    width: 40%
+    width: 30%
 

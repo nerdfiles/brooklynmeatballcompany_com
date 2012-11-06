@@ -10,7 +10,7 @@ Template Name: Archives
 
 <?php get_header(); ?>
 
-<div id="main" class="columns four">
+<div id="main" class="">
 
   <div class="page columns eight">
     <div class="content">

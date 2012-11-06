@@ -7,6 +7,7 @@
 get_header(); ?>
 
   <div id="main" role="main"  class="single row">
+
     <div class="page columns eight">
       <div class="content">
         <details>
@@ -15,6 +16,7 @@ get_header(); ?>
         </details>
       </div>
     </div>
+
   </div>
 
 <?php get_sidebar(); ?>

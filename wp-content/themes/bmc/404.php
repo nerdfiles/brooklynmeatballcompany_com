@@ -6,9 +6,9 @@
 
 get_header(); ?>
 
-  <div id="main" role="main"  class="single row">
+  <div id="main" role="main"  class="single">
 
-    <div class="page columns eight">
+    <div class="page">
       <div class="content">
         <details>
           <summary><h1>Not found</h1></summary>

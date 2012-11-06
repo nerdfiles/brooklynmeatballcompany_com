@@ -6,12 +6,12 @@ Syntax error: File to import not found or unreadable: foundation.
                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets
                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-960-plugin-0.10.4/stylesheets
                 Compass::SpriteImporter
-        on line 5 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/app.sass
+        on line 4 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/app.sass
 
 1: /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/app.sass
 
 Backtrace:
-/Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/app.sass:5
+/Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/app.sass:4
 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/import_node.rb:64:in `rescue in import'
 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/import_node.rb:42:in `import'
 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/import_node.rb:25:in `imported_file'
@@ -74,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load paths:\A                 /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-960-plugin-0.10.4/stylesheets\A                 Compass::SpriteImporter\A         on line 5 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/app.sass\A \A 1: /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/app.sass"; }
+  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load paths:\A                 /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-960-plugin-0.10.4/stylesheets\A                 Compass::SpriteImporter\A         on line 4 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/app.sass\A \A 1: /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/app.sass"; }

@@ -11,9 +11,9 @@ Template Name: Links
 
 <?php get_header(); ?>
 
-<div id="main" class="single row">
+<div id="main" class="single">
 
-  <div class="page columns eight">
+  <div class="page">
     <div class="content">
 
       <h2>Links:</h2>
