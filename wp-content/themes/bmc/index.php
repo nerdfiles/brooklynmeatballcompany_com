@@ -6,19 +6,19 @@
 
 get_header(); ?>
 
-<div id="main" role="main" class="single row">
+<div id="main" role="main" class="single">
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
       <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
-        <header class="columns four">
+        <header class="">
           <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
           <time datetime="<?php the_time('Y-m-d')?>"><?php the_time('F jS, Y') ?></time>
           <span class="author">by <?php the_author() ?></span>
         </header>
 
-        <div class="page columns eight">
+        <div class="page">
           <div class="content">
             <?php the_content('Read the rest of this entry &raquo;'); ?>
             <footer>

@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div id="main" role="main"  class="single row">
+<div id="main" role="main"  class="single">
 
   <?php if (have_posts()) : ?>
 

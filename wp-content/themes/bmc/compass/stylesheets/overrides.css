@@ -1,22 +1,22 @@
 /* WordPress Required Styles */
-/* line 2, ../sass/overrides.sass */
+/* line 4, ../sass/overrides.sass */
 .aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 7, ../sass/overrides.sass */
+/* line 9, ../sass/overrides.sass */
 .alignleft {
   float: left;
 }
 
-/* line 10, ../sass/overrides.sass */
+/* line 12, ../sass/overrides.sass */
 .alignright {
   float: right;
 }
 
-/* line 13, ../sass/overrides.sass */
+/* line 15, ../sass/overrides.sass */
 .wp-caption {
   border: 1px solid #dddddd;
   text-align: center;
@@ -29,14 +29,14 @@
   border-radius: 3px;
 }
 
-/* line 24, ../sass/overrides.sass */
+/* line 26, ../sass/overrides.sass */
 .wp-caption img {
   margin: 0;
   padding: 0;
   border: 0 none;
 }
 
-/* line 29, ../sass/overrides.sass */
+/* line 31, ../sass/overrides.sass */
 .wp-caption-dd {
   font-size: 11px;
   line-height: 17px;
@@ -44,13 +44,13 @@
   margin: 0;
 }
 
-/* line 35, ../sass/overrides.sass */
+/* line 37, ../sass/overrides.sass */
 .sticky {
   background: #f7f7f7;
   padding: 0 10px 10px;
 }
 
-/* line 39, ../sass/overrides.sass */
+/* line 41, ../sass/overrides.sass */
 .sticky h2 {
   padding-top: 10px;
 }

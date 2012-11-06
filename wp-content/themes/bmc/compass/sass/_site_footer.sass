@@ -1,16 +1,19 @@
-footer.site-footer
-  @extend .row
+.site-footer
   margin-top: 30px
   margin-bottom: 60px
   position: relative
+  @include cf
   h3
     color: #E91914
     font-family: Arial, sans-serif
     text-transform: uppercase
     font-size: 14px
+  h4
+    font-weight: 700
+    font-size: 20px
   .copyright
-    @extend .columns
-    @extend .six
+    @include grid(6)
+    @include omega
     p
       text-align: right
       border-top: 1px #e1e1e1 solid
@@ -19,7 +22,11 @@ footer.site-footer
       text-transform: lowercase
       color: #999
   .imprint
-    font-size: 2em
+    .inner
+      padding: 15px
+    @include grid(6)
+    @include alpha
+    font-size: 16px
     border: 2px #EA1E2A solid
     box-shadow: 5px 5px 0 #EA1E2A
 

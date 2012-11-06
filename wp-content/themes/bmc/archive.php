@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div id="main" role="main"  class="single row">
+<div id="main" role="main"  class="single">
 
   <?php if (have_posts()) : ?>
 
@@ -35,11 +35,11 @@ get_header(); ?>
 
     <?php while (have_posts()) : the_post(); ?>
     <article <?php post_class() ?>>
-      <header  class="columns four">
+      <header  class="">
         <h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
         <time datetime="<?php the_time('Y-m-d')?>"><?php the_time('l, F jS, Y') ?></time>
       </header>
-      <div class="page columns eight">
+      <div class="page">
         <div class="content">
         <?php the_content() ?>
         </div>

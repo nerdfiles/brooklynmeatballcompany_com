@@ -6,13 +6,13 @@
 
 get_header(); ?>
 
-<div id="main" role="main" class="single row">
+<div id="main" role="main" class="single">
 
-  <header class="columns four">
+  <header class="">
     <h2>Search Results</h2>
   </header>
 
-  <div class="page columns eight">
+  <div class="page">
     <div class="content">
 
     <?php if (have_posts()) : ?>
