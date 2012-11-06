@@ -165,7 +165,7 @@ blockquote
 
       iframe
         z-index: 100
-        opacity: .5
+        opacity: 1
         left: 0
         height: 223px
         width: 940px
@@ -210,12 +210,12 @@ blockquote
         .content
           padding: 30px 0 20px
           color: #E91914
-          p:nth-child(1n)
+          div.second
             @include grid(3)
             @include alpha
             position: relative !important
             left: 10px !important
-          p:nth-child(2n)
+          div.first
             text-align: right
             @include grid(3)
             @include omega

@@ -19,7 +19,7 @@
           (function() { 
             $('div.home')
               .animate({
-                'height': '247px'
+                'height': '223px'
               }, 300);
 
             $('div.home iframe')

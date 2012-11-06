@@ -237,7 +237,7 @@ blockquote div {
   background: white;
   color: black;
   font-size: 30px;
-  padding: 2px 10px 15px;
+  padding: 0 10px 15px;
   letter-spacing: 3px;
   border-bottom: 1px solid white;
   position: relative;
@@ -264,32 +264,34 @@ blockquote div {
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.menu-item a:active {
   color: #e91914;
 }
-/* line 41, ../sass/_site_nav.sass */
-.page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li:first-child {
+/* line 42, ../sass/_site_nav.sass */
+.page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li:first-child,
+.page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.first-child {
   margin-left: 0;
 }
-/* line 43, ../sass/_site_nav.sass */
-.page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li:last-child {
+/* line 46, ../sass/_site_nav.sass */
+.page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li:last-child,
+.page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.last-child {
   margin-right: 0;
 }
-/* line 48, ../sass/_site_nav.sass */
+/* line 51, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.current-menu-item a {
   color: #e91914;
 }
-/* line 50, ../sass/_site_nav.sass */
+/* line 53, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.current-menu-item a:link {
   color: #e91914;
 }
-/* line 52, ../sass/_site_nav.sass */
+/* line 55, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.current-menu-item a:visited {
   color: #e91914;
 }
-/* line 54, ../sass/_site_nav.sass */
+/* line 57, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.current-menu-item a:hover {
   background: transparent;
   color: #222222;
 }
-/* line 57, ../sass/_site_nav.sass */
+/* line 60, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.current-menu-item a:active {
   color: #222222;
 }
@@ -406,7 +408,7 @@ blockquote div {
 /* line 166, ../sass/screen.sass */
 .page-wrapper section.site-content .home iframe {
   z-index: 100;
-  opacity: 0.5;
+  opacity: 1;
   left: 0;
   height: 223px;
   width: 940px;
@@ -481,7 +483,7 @@ blockquote div {
   color: #e91914;
 }
 /* line 213, ../sass/screen.sass */
-.page-wrapper section.site-content .home .page .content p:nth-child(1n) {
+.page-wrapper section.site-content .home .page .content div.second {
   display: inline;
   float: left;
   margin-left: 10px;
@@ -492,7 +494,7 @@ blockquote div {
   left: 10px !important;
 }
 /* line 218, ../sass/screen.sass */
-.page-wrapper section.site-content .home .page .content p:nth-child(2n) {
+.page-wrapper section.site-content .home .page .content div.first {
   text-align: right;
   display: inline;
   float: left;
@@ -645,14 +647,16 @@ blockquote div {
 }
 /* line 30, ../sass/_site_footer.sass */
 .page-wrapper .site-footer .imprint {
+  clear: both;
+  margin-top: 30px;
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 460px;
+  width: 940px;
   margin-right: 0;
 }
-/* line 33, ../sass/_site_footer.sass */
+/* line 35, ../sass/_site_footer.sass */
 .page-wrapper .site-footer .imprint p {
   opacity: 0.6;
   text-align: right;
@@ -662,30 +666,30 @@ blockquote div {
   text-transform: lowercase;
   color: #999999;
 }
-/* line 35, ../sass/_site_footer.sass */
+/* line 37, ../sass/_site_footer.sass */
 .page-wrapper .site-footer .imprint p:hover {
   opacity: 1;
 }
-/* line 43, ../sass/_site_footer.sass */
+/* line 45, ../sass/_site_footer.sass */
 .page-wrapper .site-footer .imprint p:first-child {
   border-top: 3px #e1e1e1 double;
 }
-/* line 45, ../sass/_site_footer.sass */
+/* line 47, ../sass/_site_footer.sass */
 .page-wrapper .site-footer .imprint p:last-child {
   font-size: 0.75em;
 }
-/* line 47, ../sass/_site_footer.sass */
+/* line 49, ../sass/_site_footer.sass */
 .page-wrapper .site-footer .imprint a {
   text-shadow: 1px 0 0 white;
   color: #444444;
 }
-/* line 50, ../sass/_site_footer.sass */
+/* line 52, ../sass/_site_footer.sass */
 .page-wrapper .site-footer .imprint a:active {
   text-shadow: 1px 0 0 #444444;
   background: #b9b9b9;
   color: white;
 }
-/* line 54, ../sass/_site_footer.sass */
+/* line 56, ../sass/_site_footer.sass */
 .page-wrapper .site-footer .callout {
   display: inline;
   float: left;
@@ -697,7 +701,7 @@ blockquote div {
   border: 2px #ea1e2a solid;
   box-shadow: 5px 5px 0 #ea1e2a;
 }
-/* line 55, ../sass/_site_footer.sass */
+/* line 57, ../sass/_site_footer.sass */
 .page-wrapper .site-footer .callout .inner {
   padding: 15px;
 }

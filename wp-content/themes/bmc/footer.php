@@ -25,17 +25,17 @@
     </ul>
   </div-->
 
-  <!--
   <div class="social-media">
+    <h4>Get Social</h4>
+    <p>Find us elsewhere on the Web.</p>
     <ul>
-      <li>Twitter</li>
-      <li>Facebook</li>
-      <li>Yelp</li>
-      <li>Urbanspoon</li>
-      <li>Google</li>
+      <li><a href="http://www.facebook.com/pages/Brooklyn-Meatball-Company/260046834011588">Facebook</a></li>
+      <li><a href="http://www.yelp.com/biz/brooklyn-meatball-co-houston-2">Yelp</a></li>
+      <li><a href="http://www.urbanspoon.com/r/8/1681453/restaurant/Downtown/Brooklyn-Meatball-Company-Houston">Urbanspoon</a></li>
     </ul>
   </div>
 
+  <!--
   <div class="payment-forms">
     <ul>
       <li>VISA</li>

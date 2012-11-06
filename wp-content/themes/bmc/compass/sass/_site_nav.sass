@@ -8,8 +8,8 @@ nav.site-nav
   .menu-primary-menu-container
     margin: 30px 0 10px
     #menu-primary-menu
-      @include grid(12)
       @include cf
+      @include grid(12)
       li
         border: none
       li.menu-item
@@ -20,7 +20,7 @@ nav.site-nav
           background: #fff
           color: #000
           font-size: 30px
-          padding: 2px 10px 15px
+          padding: 0 10px 15px
           letter-spacing: 3px
           border-bottom: 1px solid #fff
           position: relative
@@ -38,12 +38,15 @@ nav.site-nav
             opacity: .75
           &:active
             color: #E91914
-      li:first-child
+      
+      li:first-child,
+      li.first-child
         @include alpha
-      li:last-child
+      
+      li:last-child,
+      li.last-child
         @include omega
-      li.menu-item-type-post_type 
-      li.menu-item-object-page 
+
       li.current-menu-item 
         a
           color: #E91914
