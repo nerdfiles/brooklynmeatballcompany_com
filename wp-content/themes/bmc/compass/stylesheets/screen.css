@@ -410,11 +410,9 @@ blockquote div {
   z-index: 100;
   opacity: 1;
   left: 0;
-  height: 223px;
-  width: 940px;
   position: absolute;
 }
-/* line 173, ../sass/screen.sass */
+/* line 171, ../sass/screen.sass */
 .page-wrapper section.site-content .home header {
   display: inline;
   float: left;
@@ -424,7 +422,7 @@ blockquote div {
   margin-left: 0;
   position: relative;
 }
-/* line 177, ../sass/screen.sass */
+/* line 175, ../sass/screen.sass */
 .page-wrapper section.site-content .home header .showmap {
   position: absolute;
   top: -30px;
@@ -433,7 +431,7 @@ blockquote div {
   font-variant: small-caps;
   text-transform: lowercase;
 }
-/* line 184, ../sass/screen.sass */
+/* line 182, ../sass/screen.sass */
 .page-wrapper section.site-content .home h2 {
   font-size: 24px;
   font-family: open-sans, Arial;
@@ -443,26 +441,26 @@ blockquote div {
   position: relative;
   z-index: 9001;
 }
-/* line 192, ../sass/screen.sass */
+/* line 190, ../sass/screen.sass */
 .page-wrapper section.site-content .home h2 a {
   font-variant: small-caps;
   text-transform: lowercase;
   text-decoration: none;
   color: #ea1e2a;
 }
-/* line 197, ../sass/screen.sass */
+/* line 195, ../sass/screen.sass */
 .page-wrapper section.site-content .home h2 a:visited {
   color: #ea1e2a;
 }
-/* line 199, ../sass/screen.sass */
+/* line 197, ../sass/screen.sass */
 .page-wrapper section.site-content .home h2 a:hover {
   color: #222222;
 }
-/* line 201, ../sass/screen.sass */
+/* line 199, ../sass/screen.sass */
 .page-wrapper section.site-content .home h2 a:active {
   color: white;
 }
-/* line 203, ../sass/screen.sass */
+/* line 201, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page {
   z-index: 9001;
   position: relative;
@@ -473,16 +471,16 @@ blockquote div {
   width: 460px;
   margin-right: 0;
 }
-/* line 208, ../sass/screen.sass */
+/* line 206, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page h3 {
   font-family: open-sans, Arial;
 }
-/* line 210, ../sass/screen.sass */
+/* line 208, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page .content {
   padding: 30px 0 20px;
   color: #e91914;
 }
-/* line 213, ../sass/screen.sass */
+/* line 211, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page .content div.second {
   display: inline;
   float: left;
@@ -493,7 +491,7 @@ blockquote div {
   position: relative !important;
   left: 10px !important;
 }
-/* line 218, ../sass/screen.sass */
+/* line 216, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page .content div.first {
   text-align: right;
   display: inline;
@@ -505,17 +503,17 @@ blockquote div {
   position: relative !important;
   left: -10px !important;
 }
-/* line 224, ../sass/screen.sass */
+/* line 222, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page .content h3 {
   text-align: center;
   font-size: 20px;
   color: #e91914;
 }
-/* line 232, ../sass/screen.sass */
+/* line 230, ../sass/screen.sass */
 .page-wrapper section.site-content .single article {
   padding-top: 2em;
 }
-/* line 234, ../sass/screen.sass */
+/* line 232, ../sass/screen.sass */
 .page-wrapper section.site-content .single header {
   border-right: 1px solid #e9e9e9;
   display: inline;
@@ -525,7 +523,7 @@ blockquote div {
   width: 300px;
   margin-left: 0;
 }
-/* line 238, ../sass/screen.sass */
+/* line 236, ../sass/screen.sass */
 .page-wrapper section.site-content .single header h2 {
   display: inline;
   float: left;
@@ -534,22 +532,22 @@ blockquote div {
   width: 300px;
   margin-left: 0;
 }
-/* line 241, ../sass/screen.sass */
+/* line 239, ../sass/screen.sass */
 .page-wrapper section.site-content .single h2 {
   margin-top: 0;
   font-size: 32px;
   letter-spacing: 5px;
   font-family: poiret-one, Arial;
 }
-/* line 246, ../sass/screen.sass */
+/* line 244, ../sass/screen.sass */
 .page-wrapper section.site-content .single h2 a {
   text-decoration: none;
 }
-/* line 248, ../sass/screen.sass */
+/* line 246, ../sass/screen.sass */
 .page-wrapper section.site-content .single h2 a:hover {
   background: whitesmoke;
 }
-/* line 251, ../sass/screen.sass */
+/* line 249, ../sass/screen.sass */
 .page-wrapper section.site-content .single .page {
   display: inline;
   float: left;
@@ -558,22 +556,22 @@ blockquote div {
   width: 620px;
   margin-right: 0;
 }
-/* line 257, ../sass/screen.sass */
+/* line 255, ../sass/screen.sass */
 .page-wrapper section.site-content .single .page div a:active {
   background: white;
 }
-/* line 259, ../sass/screen.sass */
+/* line 257, ../sass/screen.sass */
 .page-wrapper section.site-content .single .page div h2 {
   letter-spacing: 0;
   text-align: left !important;
   font-family: Arial !important;
 }
-/* line 263, ../sass/screen.sass */
+/* line 261, ../sass/screen.sass */
 .page-wrapper section.site-content .single .page h1 {
   font-family: poiret-one, Arial;
   font-size: 3.3em;
 }
-/* line 267, ../sass/screen.sass */
+/* line 265, ../sass/screen.sass */
 .page-wrapper section.site-content .single .page h3,
 .page-wrapper section.site-content .single .page .h3 {
   color: #222222;
@@ -783,19 +781,19 @@ blockquote div {
   width: 30%;
 }
 
-/* line 286, ../sass/screen.sass */
+/* line 284, ../sass/screen.sass */
 sup {
   font-size: 0.6em;
   text-transform: lowercase;
   font-variant: small-caps;
 }
 
-/* line 293, ../sass/screen.sass */
+/* line 291, ../sass/screen.sass */
 body#our-menu .content footer {
   font-size: 0.8em;
   color: #999999;
 }
-/* line 296, ../sass/screen.sass */
+/* line 294, ../sass/screen.sass */
 body#our-menu .content dl {
   margin: 15px 0 25px;
 }
@@ -805,7 +803,7 @@ body#our-menu .content dl:after {
   display: table;
   clear: both;
 }
-/* line 299, ../sass/screen.sass */
+/* line 297, ../sass/screen.sass */
 body#our-menu .content dl dt {
   background: #e9e9e9;
   box-shadow: 0 5px 0 #e91914;
@@ -822,7 +820,7 @@ body#our-menu .content dl dt {
   width: 300px;
   margin-left: 0;
 }
-/* line 310, ../sass/screen.sass */
+/* line 308, ../sass/screen.sass */
 body#our-menu .content dl dd {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -833,7 +831,7 @@ body#our-menu .content dl dd {
   width: 300px;
   margin-right: 0;
 }
-/* line 315, ../sass/screen.sass */
+/* line 313, ../sass/screen.sass */
 body#our-menu .content dl dt:nth-child(2n+1) {
   clear: left;
 }
