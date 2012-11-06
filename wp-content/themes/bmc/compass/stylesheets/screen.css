@@ -335,7 +335,7 @@ blockquote div {
 .page-wrapper section.site-content .page .content h3 {
   color: #999999;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
 }
 /* line 112, ../sass/screen.sass */
 .page-wrapper section.site-content .post .content h3 a,
@@ -798,16 +798,16 @@ sup {
   font-variant: small-caps;
 }
 
-/* line 300, ../sass/screen.sass */
-body#our-menu section.menu dd ul li {
+/* line 299, ../sass/screen.sass */
+body#our-menu section.menu ul li {
   font-weight: bold;
 }
-/* line 302, ../sass/screen.sass */
+/* line 301, ../sass/screen.sass */
 body#our-menu section.menu footer {
   font-style: italic;
   font-size: 13px;
 }
-/* line 305, ../sass/screen.sass */
+/* line 304, ../sass/screen.sass */
 body#our-menu #bmc-menu-nav {
   margin: 2em 0 3em;
   background: #e9e9e9;
@@ -816,14 +816,14 @@ body#our-menu #bmc-menu-nav {
   border-right: 3px #cccccc double;
   border-bottom: 3px #cccccc double;
 }
-/* line 312, ../sass/screen.sass */
+/* line 311, ../sass/screen.sass */
 body#our-menu #bmc-menu-nav ul {
   background: white;
   text-align: center;
   padding: 0;
   margin: 0 2px;
 }
-/* line 317, ../sass/screen.sass */
+/* line 316, ../sass/screen.sass */
 body#our-menu #bmc-menu-nav li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -832,13 +832,13 @@ body#our-menu #bmc-menu-nav li {
   zoom: 1;
   *display: inline;
 }
-/* line 319, ../sass/screen.sass */
+/* line 318, ../sass/screen.sass */
 body#our-menu #bmc-menu-nav li a {
   display: block;
   text-decoration: none;
   padding: 15px 30px 12px;
 }
-/* line 323, ../sass/screen.sass */
+/* line 322, ../sass/screen.sass */
 body#our-menu #bmc-menu-takeout,
 body#our-menu #bmc-menu-cover {
   text-align: center;

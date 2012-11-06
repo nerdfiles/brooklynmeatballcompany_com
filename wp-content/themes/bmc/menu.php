@@ -210,8 +210,10 @@ get_header(); ?>
 
         <p>Fresh Tomatoes, fresh basil, and fresh mozzarella drizzled with imported extra virgin olive oil &amp; balsamic glaze.</p>
 
-        <p>Full pan (serves 12 - 16) ................ 54.25 <br />
-        Half pan (serves 6 - 8) .................... 27.50</p>
+        <ul>
+          <li>Full pan (serves 12 - 16) ................ 54.25</li>
+          <li>Half pan (serves 6 - 8) .................... 27.50</li>
+        </ul>
 
         </dd>
 
@@ -220,8 +222,10 @@ get_header(); ?>
         
         <p>Arugula, romaine, baby portobello mushrooms, cherry tomatoes, red onions, crumbled gorgonzola, candied walnuts, apple vinaigrette, and topped with a balsamic glaze drizzle.</p>
         
-        <p>Full pan ..........................................................51.75<br />
-        Half pan .........................................................26.25</p>
+        <ul>
+          <li>Full pan ..........................................................51.75</li>
+          <li>Half pan .........................................................26.25</li>
+        </ul>
 
         </dd>
 
@@ -230,8 +234,10 @@ get_header(); ?>
 
         <p>The Italian classic with homemade croutons and house made dressing.</p>
 
-        <p>Full pan .............................................40.25 <br />
-        Half pan.............................................20.50</p>
+        <ul>
+          <li>Full pan .............................................40.25 </li>
+          <li>Half pan.............................................20.50</li>
+        </ul>
 
         </dd>
 
@@ -242,14 +248,18 @@ get_header(); ?>
       <dt>Extras</dt>
 
       <dd>
-        <p>Basil Ricotta (8 oz.) ........................................................................ 8.50 <br />
-        Imported Pecorino Romano ..................................................... 8.75 <br />
-        Bread - Fresh Ciabatta (serves 12-18)................................... 11.70 <br />
-        Balsamic Glaze (8 oz.)................................................................... 9.50 <br />
-        Homemade Cannoli .........................................................1.10 each <br />
-        Place Settings ........................................................................ 1.00 PP <br />
-        &nbsp;&nbsp;includes dinner plate, napkin, fork &amp; knife <br />
-        Heating Kits ................................................................................ 10.00</p>
+        <ul>
+          <li>Basil Ricotta (8 oz.) ........................................................................ 8.50</li>
+          <li>Imported Pecorino Romano ..................................................... 8.75</li>
+          <li>Bread - Fresh Ciabatta (serves 12-18)................................... 11.70</li>
+          <li>Balsamic Glaze (8 oz.)................................................................... 9.50</li>
+          <li>Homemade Cannoli .........................................................1.10 each</li>
+          <li>Place Settings ........................................................................ 1.00 PP
+            <aside>
+              <p>Includes dinner plate, napkin, fork &amp; knife.</p>
+            </aside></li>
+          <li>Heating Kits ................................................................................ 10.00</li>
+        </ul>
         <p>Keep food warm with racks and burners, set up included one kit heats one full pan or two half pans</p>
       </dd>
 
