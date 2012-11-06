@@ -1,89 +1,5 @@
+@charset "UTF-8";
 /*
-<<<<<<< HEAD
-Syntax error: File to import not found or unreadable: foundation/common/ratios.
-              Load paths:
-                /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass
-                /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/blueprint/stylesheets
-                /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets
-                /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-960-plugin-0.10.4/stylesheets
-                Compass::SpriteImporter
-        on line 1 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/_settings.sass
-        from line 5 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/screen.sass
-
-1: /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/screen.sass
-
-Backtrace:
-/Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/_settings.sass:1
-/Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/screen.sass:5
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/import_node.rb:64:in `rescue in import'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/import_node.rb:42:in `import'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/import_node.rb:25:in `imported_file'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:227:in `rescue in visit_import'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:232:in `visit_import'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `block in visit_import'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `map'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `visit_import'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/path.rb:73:in `call'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/path.rb:73:in `run_callback'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/path.rb:55:in `callback_action'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/path.rb:35:in `update'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:37:in `each'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:37:in `modified'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/backends/polling.rb:17:in `each'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/backends/polling.rb:17:in `block in run'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/backends/polling.rb:15:in `loop'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/backends/polling.rb:15:in `run'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm/monitor.rb:26:in `run'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/fssm-0.2.8.1/lib/fssm.rb:70:in `monitor'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/bin/compass:44:in `call'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/bin/compass:19:in `load'
-/Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/bin/compass:19:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: foundation/common/ratios.\A               Load paths:\A                 /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/nerdfiles/.rvm/gems/ruby-1.9.3-p125/gems/compass-960-plugin-0.10.4/stylesheets\A                 Compass::SpriteImporter\A         on line 1 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/_settings.sass\A         from line 5 of /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/screen.sass\A \A 1: /Users/nerdfiles/Sites/brooklynmeatballcompany_com/wp-content/themes/bmc/compass/sass/screen.sass"; }
-=======
  * DEBUG setting
  */
 /*
@@ -157,66 +73,56 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 18, ../sass/screen.sass */
 body {
   background-color: white;
-  line-height: 1.3754;
+  line-height: 1.6754;
+  font-family: Helvetica, sans-serif;
   font-size: 16px;
 }
-/* line 22, ../sass/screen.sass */
+/* line 23, ../sass/screen.sass */
 body p {
   margin: 0 0 1em;
 }
 
-/* line 25, ../sass/screen.sass */
-a {
-  color: #e91914;
-}
 /* line 27, ../sass/screen.sass */
-a:link {
-  color: #e91914;
-}
-/* line 29, ../sass/screen.sass */
-a:visited {
-  color: #e91914;
-}
-/* line 31, ../sass/screen.sass */
-a:hover {
-  color: #222222;
-}
-/* line 33, ../sass/screen.sass */
-a:active {
-  background: #e91914;
-  color: white;
-}
-
-/* line 37, ../sass/screen.sass */
 h1 {
-  font-family: Helvetica, sans-serif;
+  font-family: open-sans, sans-serif;
 }
 
-/* line 40, ../sass/screen.sass */
+/* line 30, ../sass/screen.sass */
 h1, h2, h3, h4, h5, h6 {
+  font-family: poiret-one, Arial;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 44, ../sass/screen.sass */
+/* line 35, ../sass/screen.sass */
 ul {
   margin: 0.5em 0;
 }
 
-/* line 47, ../sass/screen.sass */
+/* line 38, ../sass/screen.sass */
 blockquote {
-  border-left: 1px #cccccc solid;
+  padding-top: 0.5em;
   padding-left: 20px;
   margin-bottom: 2em;
+  border-bottom: 3px double #e9e9e9;
+  padding-bottom: 30px;
 }
-/* line 50, ../sass/screen.sass */
+/* line 40, ../sass/screen.sass */
+blockquote:before {
+  content: "❝";
+  font-size: 3em;
+  position: absolute;
+  margin: -0.6em 0 0 -0.5em;
+  color: #cccccc;
+}
+/* line 47, ../sass/screen.sass */
 blockquote div {
   font-weight: 700;
 }
 
-/* line 54, ../sass/screen.sass */
+/* line 53, ../sass/screen.sass */
 .page-wrapper {
-  font-family: Helvetica, sans-serif;
+  font-family: open-sans;
   color: #333333;
   margin-left: auto;
   margin-right: auto;
@@ -227,6 +133,27 @@ blockquote div {
   /*
    * CSS3 Image Filter Tools
    */
+}
+/* line 55, ../sass/screen.sass */
+.page-wrapper a {
+  color: #e91914;
+}
+/* line 57, ../sass/screen.sass */
+.page-wrapper a:link {
+  color: #e91914;
+}
+/* line 59, ../sass/screen.sass */
+.page-wrapper a:visited {
+  color: #e91914;
+}
+/* line 61, ../sass/screen.sass */
+.page-wrapper a:hover {
+  color: #222222;
+}
+/* line 63, ../sass/screen.sass */
+.page-wrapper a:active {
+  background: #e91914;
+  color: white;
 }
 /* line 25, ../sass/_utils.sass */
 .page-wrapper:after {
@@ -275,7 +202,7 @@ blockquote div {
 }
 /* line 8, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container {
-  margin: 30px 0 70px;
+  margin: 30px 0 10px;
 }
 /* line 10, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu {
@@ -308,57 +235,65 @@ blockquote div {
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.menu-item a {
   display: block;
   background: white;
-  color: #999999;
+  color: black;
   font-size: 30px;
+  padding: 2px 10px 15px;
+  letter-spacing: 3px;
+  border-bottom: 1px solid white;
+  position: relative;
+  top: 0px;
   text-decoration: none;
-  font-family: lobster, Arial;
+  font-family: poiret-one, Arial;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
-/* line 25, ../sass/_site_nav.sass */
+/* line 32, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.menu-item a:link {
-  color: #999999;
-}
-/* line 27, ../sass/_site_nav.sass */
-.page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.menu-item a:visited {
-  color: #999999;
-}
-/* line 29, ../sass/_site_nav.sass */
-.page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.menu-item a:hover {
   color: black;
 }
-/* line 31, ../sass/_site_nav.sass */
+/* line 34, ../sass/_site_nav.sass */
+.page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.menu-item a:visited {
+  color: black;
+}
+/* line 36, ../sass/_site_nav.sass */
+.page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.menu-item a:hover {
+  color: black;
+  opacity: 0.75;
+}
+/* line 39, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.menu-item a:active {
   color: #e91914;
 }
-/* line 33, ../sass/_site_nav.sass */
+/* line 41, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li:first-child {
   margin-left: 0;
 }
-/* line 35, ../sass/_site_nav.sass */
+/* line 43, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li:last-child {
   margin-right: 0;
 }
-/* line 40, ../sass/_site_nav.sass */
+/* line 48, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.current-menu-item a {
   color: #e91914;
 }
-/* line 42, ../sass/_site_nav.sass */
+/* line 50, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.current-menu-item a:link {
   color: #e91914;
 }
-/* line 44, ../sass/_site_nav.sass */
+/* line 52, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.current-menu-item a:visited {
   color: #e91914;
 }
-/* line 46, ../sass/_site_nav.sass */
+/* line 54, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.current-menu-item a:hover {
   background: transparent;
   color: #222222;
 }
-/* line 49, ../sass/_site_nav.sass */
+/* line 57, ../sass/_site_nav.sass */
 .page-wrapper nav.site-nav .menu-primary-menu-container #menu-primary-menu li.current-menu-item a:active {
   color: #222222;
 }
-/* line 69, ../sass/screen.sass */
+/* line 81, ../sass/screen.sass */
 .page-wrapper section.site-content {
   background: white;
 }
@@ -368,53 +303,47 @@ blockquote div {
   display: table;
   clear: both;
 }
-/* line 73, ../sass/screen.sass */
+/* line 86, ../sass/screen.sass */
 .page-wrapper section.site-content h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #222222;
+  color: #444444;
 }
-/* line 77, ../sass/screen.sass */
+/* line 90, ../sass/screen.sass */
 .page-wrapper section.site-content h2 a {
   display: block;
-  color: #222222;
+  color: #cccccc;
 }
-/* line 80, ../sass/screen.sass */
+/* line 93, ../sass/screen.sass */
 .page-wrapper section.site-content h2 a:visited {
-  color: #222222;
+  color: #cccccc;
 }
-/* line 85, ../sass/screen.sass */
+/* line 98, ../sass/screen.sass */
 .page-wrapper section.site-content .post,
 .page-wrapper section.site-content .page {
   margin-bottom: 20px;
 }
-/* line 89, ../sass/screen.sass */
+/* line 103, ../sass/screen.sass */
 .page-wrapper section.site-content .post header,
 .page-wrapper section.site-content .page header {
   margin-bottom: 10px;
 }
-/* line 92, ../sass/screen.sass */
-.page-wrapper section.site-content .post .content,
-.page-wrapper section.site-content .page .content {
-  background: white;
-}
-/* line 94, ../sass/screen.sass */
+/* line 107, ../sass/screen.sass */
 .page-wrapper section.site-content .post .content h3,
 .page-wrapper section.site-content .page .content h3 {
   color: #999999;
   font-size: 16px;
   font-weight: bold;
 }
-/* line 98, ../sass/screen.sass */
+/* line 111, ../sass/screen.sass */
 .page-wrapper section.site-content .post .content h3 a,
 .page-wrapper section.site-content .page .content h3 a {
   color: #355593;
   text-decoration: none;
 }
-/* line 104, ../sass/screen.sass */
+/* line 117, ../sass/screen.sass */
 .page-wrapper section.site-content .home,
 .page-wrapper section.site-content .single {
-  background: white;
   margin-top: 30px;
   position: relative;
 }
@@ -425,26 +354,28 @@ blockquote div {
   display: table;
   clear: both;
 }
-/* line 114, ../sass/screen.sass */
+/* line 126, ../sass/screen.sass */
 .page-wrapper section.site-content .single .post-edit-link {
   display: block;
   position: absolute;
   text-decoration: none;
   top: -30px;
   right: 0;
+  text-transform: lowercase;
+  font-variant: small-caps;
   padding: 10px 18px;
   z-index: 9001;
   border-left: 1px #e9e9e9 solid;
   border-bottom: 1px #e9e9e9 solid;
+  border-right: 1px #e9e9e9 solid;
   color: #cccccc;
 }
-/* line 125, ../sass/screen.sass */
+/* line 140, ../sass/screen.sass */
 .page-wrapper section.site-content .single .post-edit-link:hover {
   color: #888888;
 }
-/* line 131, ../sass/screen.sass */
+/* line 146, ../sass/screen.sass */
 .page-wrapper section.site-content .home {
-  background: white;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -455,7 +386,7 @@ blockquote div {
   border: 2px #ea1e2a solid;
   box-shadow: 5px 5px 0 #ea1e2a;
 }
-/* line 138, ../sass/screen.sass */
+/* line 152, ../sass/screen.sass */
 .page-wrapper section.site-content .home .post-edit-link {
   display: block;
   position: absolute;
@@ -468,11 +399,20 @@ blockquote div {
   border-left: 2px #ea1e2a solid;
   border-bottom: 2px #ea1e2a solid;
 }
-/* line 144, ../sass/screen.sass */
-.page-wrapper section.site-content .home .post-edit-link:hover {
-  color: #222222;
+/* line 158, ../sass/screen.sass */
+.page-wrapper section.site-content .home .post-edit-link:active {
+  color: white;
 }
-/* line 151, ../sass/screen.sass */
+/* line 166, ../sass/screen.sass */
+.page-wrapper section.site-content .home iframe {
+  z-index: 100;
+  opacity: 0.5;
+  left: 0;
+  height: 223px;
+  width: 940px;
+  position: absolute;
+}
+/* line 173, ../sass/screen.sass */
 .page-wrapper section.site-content .home header {
   display: inline;
   float: left;
@@ -480,30 +420,50 @@ blockquote div {
   margin-right: 10px;
   width: 460px;
   margin-left: 0;
+  position: relative;
 }
-/* line 154, ../sass/screen.sass */
+/* line 177, ../sass/screen.sass */
+.page-wrapper section.site-content .home header .showmap {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  text-decoration: none;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+/* line 184, ../sass/screen.sass */
 .page-wrapper section.site-content .home h2 {
   font-size: 24px;
+  font-family: open-sans, Arial;
   font-weight: 700;
-  padding: 20px;
+  margin: 10px 0 0;
+  padding: 30px;
+  position: relative;
+  z-index: 9001;
 }
-/* line 158, ../sass/screen.sass */
+/* line 192, ../sass/screen.sass */
 .page-wrapper section.site-content .home h2 a {
   font-variant: small-caps;
   text-transform: lowercase;
+  text-decoration: none;
   color: #ea1e2a;
 }
-/* line 162, ../sass/screen.sass */
+/* line 197, ../sass/screen.sass */
 .page-wrapper section.site-content .home h2 a:visited {
-  color: #222222;
+  color: #ea1e2a;
 }
-/* line 164, ../sass/screen.sass */
+/* line 199, ../sass/screen.sass */
 .page-wrapper section.site-content .home h2 a:hover {
   color: #222222;
 }
-/* line 166, ../sass/screen.sass */
+/* line 201, ../sass/screen.sass */
+.page-wrapper section.site-content .home h2 a:active {
+  color: white;
+}
+/* line 203, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page {
-  background: white;
+  z-index: 9001;
+  position: relative;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -511,13 +471,16 @@ blockquote div {
   width: 460px;
   margin-right: 0;
 }
-/* line 170, ../sass/screen.sass */
+/* line 208, ../sass/screen.sass */
+.page-wrapper section.site-content .home .page h3 {
+  font-family: open-sans, Arial;
+}
+/* line 210, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page .content {
   padding: 30px 0 20px;
-  background: white;
   color: #e91914;
 }
-/* line 174, ../sass/screen.sass */
+/* line 213, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page .content p:nth-child(1n) {
   display: inline;
   float: left;
@@ -528,7 +491,7 @@ blockquote div {
   position: relative !important;
   left: 10px !important;
 }
-/* line 179, ../sass/screen.sass */
+/* line 218, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page .content p:nth-child(2n) {
   text-align: right;
   display: inline;
@@ -540,21 +503,27 @@ blockquote div {
   position: relative !important;
   left: -10px !important;
 }
-/* line 185, ../sass/screen.sass */
+/* line 224, ../sass/screen.sass */
 .page-wrapper section.site-content .home .page .content h3 {
   text-align: center;
   font-size: 20px;
   color: #e91914;
 }
-/* line 192, ../sass/screen.sass */
-.page-wrapper section.site-content .single {
-  background: white;
-}
-/* line 193, ../sass/screen.sass */
+/* line 232, ../sass/screen.sass */
 .page-wrapper section.site-content .single article {
   padding-top: 2em;
 }
-/* line 196, ../sass/screen.sass */
+/* line 234, ../sass/screen.sass */
+.page-wrapper section.site-content .single header {
+  border-right: 1px solid #e9e9e9;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+  margin-left: 0;
+}
+/* line 238, ../sass/screen.sass */
 .page-wrapper section.site-content .single header h2 {
   display: inline;
   float: left;
@@ -563,21 +532,23 @@ blockquote div {
   width: 300px;
   margin-left: 0;
 }
-/* line 199, ../sass/screen.sass */
+/* line 241, ../sass/screen.sass */
 .page-wrapper section.site-content .single h2 {
   margin-top: 0;
   font-size: 32px;
   letter-spacing: 5px;
-  font-family: lobster, Arial;
-  background: white;
+  font-family: poiret-one, Arial;
 }
-/* line 205, ../sass/screen.sass */
-.page-wrapper section.site-content .single .post {
-  background: white;
+/* line 246, ../sass/screen.sass */
+.page-wrapper section.site-content .single h2 a {
+  text-decoration: none;
 }
-/* line 207, ../sass/screen.sass */
+/* line 248, ../sass/screen.sass */
+.page-wrapper section.site-content .single h2 a:hover {
+  background: whitesmoke;
+}
+/* line 251, ../sass/screen.sass */
 .page-wrapper section.site-content .single .page {
-  background: white;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -585,17 +556,27 @@ blockquote div {
   width: 620px;
   margin-right: 0;
 }
-/* line 208, ../sass/screen.sass */
-.page-wrapper section.site-content .single .page h1 {
-  font-size: 2em;
+/* line 257, ../sass/screen.sass */
+.page-wrapper section.site-content .single .page div a:active {
+  background: white;
 }
-/* line 214, ../sass/screen.sass */
+/* line 259, ../sass/screen.sass */
+.page-wrapper section.site-content .single .page div h2 {
+  letter-spacing: 0;
+  text-align: left !important;
+  font-family: Arial !important;
+}
+/* line 263, ../sass/screen.sass */
+.page-wrapper section.site-content .single .page h1 {
+  font-family: poiret-one, Arial;
+  font-size: 3.3em;
+}
+/* line 267, ../sass/screen.sass */
 .page-wrapper section.site-content .single .page h3,
 .page-wrapper section.site-content .single .page .h3 {
-  color: #999999;
-  font-variant: small-caps;
-  text-transform: uppercase;
-  font-size: 24px;
+  color: #222222;
+  letter-spacing: 5px;
+  font-size: 27px;
   margin: 0 0 25px 0;
 }
 /* line 1, ../sass/_site_footer.sass */
@@ -611,19 +592,32 @@ blockquote div {
   clear: both;
 }
 /* line 6, ../sass/_site_footer.sass */
+.page-wrapper .site-footer a {
+  text-decoration: none;
+}
+/* line 8, ../sass/_site_footer.sass */
+.page-wrapper .site-footer a:active {
+  color: white;
+}
+/* line 10, ../sass/_site_footer.sass */
 .page-wrapper .site-footer h3 {
   color: #e91914;
-  font-family: Arial, sans-serif;
   text-transform: uppercase;
+  font-family: open-sans, Arial;
   font-size: 14px;
 }
-/* line 11, ../sass/_site_footer.sass */
+/* line 15, ../sass/_site_footer.sass */
+.page-wrapper .site-footer h3 a {
+  text-decoration: none;
+}
+/* line 17, ../sass/_site_footer.sass */
 .page-wrapper .site-footer h4 {
   font-weight: 700;
+  font-family: open-sans, Arial;
   font-size: 20px;
 }
-/* line 14, ../sass/_site_footer.sass */
-.page-wrapper .site-footer .copyright {
+/* line 21, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .payment-forms {
   display: inline;
   float: left;
   margin-left: 10px;
@@ -631,17 +625,68 @@ blockquote div {
   width: 460px;
   margin-right: 0;
 }
-/* line 17, ../sass/_site_footer.sass */
-.page-wrapper .site-footer .copyright p {
+/* line 24, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .footer-nav {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+  margin-right: 0;
+}
+/* line 27, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .social-media {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+  margin-right: 0;
+}
+/* line 30, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .imprint {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+  margin-right: 0;
+}
+/* line 33, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .imprint p {
+  opacity: 0.6;
   text-align: right;
-  border-top: 1px #e1e1e1 solid;
+  border-top: 1px #e9e9e9 solid;
   padding: 10px;
   font-variant: small-caps;
   text-transform: lowercase;
   color: #999999;
 }
-/* line 24, ../sass/_site_footer.sass */
-.page-wrapper .site-footer .imprint {
+/* line 35, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .imprint p:hover {
+  opacity: 1;
+}
+/* line 43, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .imprint p:first-child {
+  border-top: 3px #e1e1e1 double;
+}
+/* line 45, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .imprint p:last-child {
+  font-size: 0.75em;
+}
+/* line 47, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .imprint a {
+  text-shadow: 1px 0 0 white;
+  color: #444444;
+}
+/* line 50, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .imprint a:active {
+  text-shadow: 1px 0 0 #444444;
+  background: #b9b9b9;
+  color: white;
+}
+/* line 54, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .callout {
   display: inline;
   float: left;
   margin-left: 10px;
@@ -652,8 +697,8 @@ blockquote div {
   border: 2px #ea1e2a solid;
   box-shadow: 5px 5px 0 #ea1e2a;
 }
-/* line 25, ../sass/_site_footer.sass */
-.page-wrapper .site-footer .imprint .inner {
+/* line 55, ../sass/_site_footer.sass */
+.page-wrapper .site-footer .callout .inner {
   padding: 15px;
 }
 /* line 5, ../sass/plugin_contactform7.sass */
@@ -667,7 +712,7 @@ blockquote div {
 }
 /* line 10, ../sass/plugin_contactform7.sass */
 .page-wrapper .wpcf7-form label {
-  font: 16px lobster, Arial;
+  font: 16px poiret-one, Arial;
   color: #222222;
   display: block;
   font-size: 24px;
@@ -680,29 +725,30 @@ blockquote div {
   box-shadow: 5px 5px 0 #ea1e2a;
   width: 100%;
   font-size: 16px;
+  font-family: open-sans, Arial;
   padding: 5px;
 }
-/* line 23, ../sass/plugin_contactform7.sass */
+/* line 24, ../sass/plugin_contactform7.sass */
 .page-wrapper .wpcf7-form input.wpcf7-submit {
   opacity: 0.6;
   border: 2px #ea1e2a solid;
-  font: 24px lobster, Arial;
+  font: 24px poiret-one, Arial;
   padding: 15px 35px;
   box-shadow: 5px 5px 0 #ea1e2a;
   cursor: pointer;
   width: auto;
 }
-/* line 31, ../sass/plugin_contactform7.sass */
+/* line 32, ../sass/plugin_contactform7.sass */
 .page-wrapper .wpcf7-form input.wpcf7-submit:hover {
   opacity: 1;
 }
-/* line 33, ../sass/plugin_contactform7.sass */
+/* line 34, ../sass/plugin_contactform7.sass */
 .page-wrapper .wpcf7-form input.wpcf7-submit:active {
   border: 2px black solid;
   box-shadow: 5px 5px 0 black;
   opacity: 1;
 }
-/* line 37, ../sass/plugin_contactform7.sass */
+/* line 38, ../sass/plugin_contactform7.sass */
 .page-wrapper .wpcf7-form .wpcf7-not-valid-tip-no-ajax {
   background: white;
   border: 2px solid #ea1e2a;
@@ -714,7 +760,7 @@ blockquote div {
   width: 300px;
   color: #222222;
 }
-/* line 48, ../sass/plugin_contactform7.sass */
+/* line 49, ../sass/plugin_contactform7.sass */
 .page-wrapper .wpcf7-form .wpcf7-not-valid-tip {
   border: 2px #ea1e2a solid;
   box-shadow: 4px 4px 0 #cccccc;
@@ -722,7 +768,7 @@ blockquote div {
   padding: 15px 10px;
   top: -45px;
 }
-/* line 57, ../sass/plugin_contactform7.sass */
+/* line 58, ../sass/plugin_contactform7.sass */
 .page-wrapper .wpcf7-form .wpcf7-response-output {
   box-shadow: 5px 5px 0 #cccccc;
   left: -20px;
@@ -733,19 +779,19 @@ blockquote div {
   width: 30%;
 }
 
-/* line 234, ../sass/screen.sass */
+/* line 286, ../sass/screen.sass */
 sup {
   font-size: 0.6em;
   text-transform: lowercase;
   font-variant: small-caps;
 }
 
-/* line 241, ../sass/screen.sass */
+/* line 293, ../sass/screen.sass */
 body#our-menu .content footer {
   font-size: 0.8em;
   color: #999999;
 }
-/* line 244, ../sass/screen.sass */
+/* line 296, ../sass/screen.sass */
 body#our-menu .content dl {
   margin: 15px 0 25px;
 }
@@ -755,9 +801,10 @@ body#our-menu .content dl:after {
   display: table;
   clear: both;
 }
-/* line 247, ../sass/screen.sass */
+/* line 299, ../sass/screen.sass */
 body#our-menu .content dl dt {
-  background: #cccccc;
+  background: #e9e9e9;
+  box-shadow: 0 5px 0 #e91914;
   border-bottom: 1px white solid;
   font-weight: 700;
   margin-bottom: 20px;
@@ -771,7 +818,7 @@ body#our-menu .content dl dt {
   width: 300px;
   margin-left: 0;
 }
-/* line 257, ../sass/screen.sass */
+/* line 310, ../sass/screen.sass */
 body#our-menu .content dl dd {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -782,8 +829,7 @@ body#our-menu .content dl dd {
   width: 300px;
   margin-right: 0;
 }
-/* line 262, ../sass/screen.sass */
+/* line 315, ../sass/screen.sass */
 body#our-menu .content dl dt:nth-child(2n+1) {
   clear: left;
 }
->>>>>>> dev

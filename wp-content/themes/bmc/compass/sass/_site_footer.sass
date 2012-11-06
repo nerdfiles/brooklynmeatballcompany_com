@@ -3,25 +3,55 @@
   margin-bottom: 60px
   position: relative
   @include cf
+  a 
+    text-decoration: none
+    &:active
+      color: #fff
   h3
     color: #E91914
-    font-family: Arial, sans-serif
     text-transform: uppercase
+    font-family: open-sans, Arial
     font-size: 14px
+    a
+      text-decoration: none
   h4
     font-weight: 700
+    font-family: open-sans, Arial
     font-size: 20px
-  .copyright
+  .payment-forms
+    @include grid(6)
+    @include omega   
+  .footer-nav
+    @include grid(6)
+    @include omega
+  .social-media
+    @include grid(6)
+    @include omega
+  .imprint
     @include grid(6)
     @include omega
     p
+      opacity: .6
+      &:hover
+        opacity: 1
       text-align: right
-      border-top: 1px #e1e1e1 solid
+      border-top: 1px #e9e9e9 solid
       padding: 10px
       font-variant: small-caps
       text-transform: lowercase
       color: #999
-  .imprint
+    p:first-child
+      border-top: 3px #e1e1e1 double
+    p:last-child
+      font-size: .75em
+    a
+      text-shadow: 1px 0 0 #fff
+      color: #444
+      &:active
+        text-shadow: 1px 0 0 #444
+        background: #b9b9b9
+        color: #fff
+  .callout
     .inner
       padding: 15px
     @include grid(6)

@@ -28,7 +28,7 @@
               }, 300)
               .fadeOut(); 
 
-            $('div.home .page, div.home header h2').fadeIn();
+            $('div.home .page, div.home header').fadeIn();
 
             $('div.home a.showmap').text('Show on map');
 
@@ -45,7 +45,7 @@
               }, 300)
               .fadeIn(); 
 
-            $('div.home .page, div.home header h2').fadeOut();
+            $('div.home .page, div.home header').fadeOut();
 
             $('div.home a.showmap').text('Hide map');
 

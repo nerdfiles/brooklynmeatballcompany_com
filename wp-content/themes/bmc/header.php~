@@ -24,7 +24,6 @@
 
   <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/css/normalize.css") ?>
 
-  <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."compass/stylesheets/app.css") ?>
   <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."compass/stylesheets/screen.css") ?>
   <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."compass/stylesheets/overrides.css") ?>
   <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."compass/stylesheets/plugin_contactform7.css") ?>
@@ -34,6 +33,9 @@
   -->
 
   <script charset="utf-8" src="http://use.edgefonts.net/lobster.js"></script>
+  <script charset="utf-8" src="http://use.edgefonts.net/poiret-one.js"></script>
+  <script src="http://use.edgefonts.net/open-sans.js"></script> 
+
   <script charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />

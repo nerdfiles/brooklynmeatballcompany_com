@@ -9,18 +9,46 @@
 
 <footer class="site-footer">
 
+  <div class="callout">
+    <div class="inner">
+      <h3><a href="/our-menu/meatball-previews/">Meatball Previews</a></h3>
+      <h4>Family Deal</h4>
+      <p>Best Value, Serves 4, 12 Meatballs, sauce, and pasta of choice $29.99</p>
+      <p>See our complete <a href="/our-menu/">Menu</a> or give us a call at (713) 751-1700.</p>
+    </div>
+  </div><!-- .callout -->
+
+  <!--div class="footer-nav">
+    <ul>
+      <li>News</li>
+      <li>Staff</li>
+    </ul>
+  </div-->
+
+  <div class="social-media">
+    <ul>
+      <li>Twitter</li>
+      <li>Facebook</li>
+      <li>Yelp</li>
+      <li>Urbanspoon</li>
+      <li>Google</li>
+    </ul>
+  </div>
+
+  <div class="payment-forms">
+    <ul>
+      <li>VISA</li>
+      <li>AmeEx</li>
+      <li>MasterCard</li>
+    </ul>
+  </div>
+
   <div class="imprint">
     <div class="inner">
-      <h3>Breakfast Preview</h3>
-      <h4>"Lucky 7" Breakfast Sub 6 Pack!</h4>
-      <p>Buy 6 Breakfast Subs get the 7<sup>th</sup> one FREE!</p>
-      <p>See the complete <a href="/our-menu/">Breakfast Menu</a>.</p>
+      <p>&copy; 2012 <a href="<?php echo get_bloginfo('url'); ?>">Brooklyn Meatball Company</a>.</p>
+      <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0;position:relative;top:4px;margin-right:3px;opacity:.3" src="http://i.creativecommons.org/l/by-sa/3.0/us/80x15.png"></a>: Built by <a href="http://nerdfiles.net" rel="external">nerdfiles</a>. See <a href="https://github.com/nerdfiles/brooklynmeatballcompany_com">the repo</a>.</p>
     </div>
   </div><!-- .imprint -->
-
-  <div class="copyright">
-    <p>Copyright 2012.</p>
-  </div>
 
 </footer><!-- .site-footer -->
 

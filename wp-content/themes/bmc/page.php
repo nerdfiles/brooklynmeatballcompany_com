@@ -12,10 +12,10 @@ get_header(); ?>
 
   <article id="post-<?php the_ID(); ?>">
 
-    <?php edit_post_link('Update <i>' . get_the_title() . '</i>', '<p>', '</p>'); ?>
+    <?php edit_post_link('Update <i>' . get_the_title() . '</i> page', '<div>', '</div>'); ?>
 
     <header class="">
-      <h2><?php the_title(); ?></h2>
+      <h2><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h2>
     </header>
 
     <section class="page">

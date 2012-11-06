@@ -6,17 +6,17 @@
 
 get_header(); ?>
 
-<div id="main" role="main" class="single row">
+<div id="main" role="main" class="single">
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
     <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
-      <header class="columns four">
+      <header class="">
         <h2><?php the_title(); ?></a></h2>
       </header>
 
-      <div class="page columns eight">
+      <div class="page">
         <div class="content">
 
           <?php the_content('Read the rest of this entry &raquo;'); ?>

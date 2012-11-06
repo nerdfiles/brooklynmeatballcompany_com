@@ -17,27 +17,18 @@ $ninesixty_columns: 12
 
 body
   background-color: #fff
-  line-height: 1.3754
+  line-height: 1.6754
+  font-family: Helvetica, sans-serif
   font-size: 16px
   p
     margin: 0 0 1em
 
-a
-  color: #E91914
-  &:link
-    color: #E91914
-  &:visited
-    color: #E91914
-  &:hover
-    color: #222
-  &:active
-    background: #E91914
-    color: #fff
 
 h1
-  font-family: Helvetica, sans-serif
+  font-family: open-sans, sans-serif
 
 h1,h2,h3,h4,h5,h6
+  font-family: poiret-one, Arial
   margin-top: .5em
   margin-bottom: .5em
 
@@ -45,14 +36,35 @@ ul
   margin: .5em 0
 
 blockquote
-  border-left: 1px #ccc solid
+  padding-top: .5em
+  &:before
+    content: "❝"
+    font-size: 3em
+    position: absolute
+    margin: -.6em 0 0 -.5em
+    color: #ccc
   padding-left: 20px
   div
     font-weight: 700
   margin-bottom: 2em
+  border-bottom: 3px double #e9e9e9
+  padding-bottom: 30px
 
 .page-wrapper
-  font-family: Helvetica, sans-serif
+
+  a
+    color: #E91914
+    &:link
+      color: #E91914
+    &:visited
+      color: #E91914
+    &:hover
+      color: #222
+    &:active
+      background: #E91914
+      color: #fff
+
+  font-family: open-sans
   color: #333
 
   @include grid_container
@@ -70,15 +82,16 @@ blockquote
     @include cf
     background: #fff
 
+    // primarily page headers
     h2
       text-align: center
       margin-bottom: 20px
-      color: #222
+      color: #444
       a
         display: block
-        color: #222
+        color: #ccc
         &:visited
-          color: #222
+          color: #ccc
 
     // defaults
 
@@ -86,11 +99,11 @@ blockquote
     .page
       margin-bottom: 20px
 
+      //overrides the site|page level header
       header
         margin-bottom: 10px
 
       .content
-        background: #fff
         h3
           color: #999
           font-size: 16px
@@ -104,7 +117,6 @@ blockquote
     .home,
     .single
       @include cf
-      background: #fff
       margin-top: 30px
       position: relative
 
@@ -117,10 +129,13 @@ blockquote
         text-decoration: none
         top: -30px
         right: 0
+        text-transform: lowercase
+        font-variant: small-caps
         padding: 10px 18px
         z-index: 9001
         border-left: 1px rgb(233,233,233) solid
         border-bottom: 1px rgb(233,233,233) solid
+        border-right: 1px rgb(233,233,233) solid
         color: #ccc
         &:hover 
           color: #888
@@ -129,7 +144,6 @@ blockquote
     // templates - HOME
 
     .home
-      background: #fff
       @include grid(12)
       @include alpha
       @include omega
@@ -141,35 +155,60 @@ blockquote
         right: 0
         top: 0
         color: #EA1E2A
-        &:hover 
-          color: #222
+        &:active
+          color: #fff
         text-decoration: none
         padding: 10px 18px
         z-index: 9001
         border-left: 2px #EA1E2A solid
         border-bottom: 2px #EA1E2A solid
+
+      iframe
+        z-index: 100
+        opacity: .5
+        left: 0
+        height: 223px
+        width: 940px
+        position: absolute
       header
         @include grid(6)
         @include alpha
+        position: relative
+        .showmap
+          position: absolute
+          top: -30px
+          left: 0
+          text-decoration: none
+          font-variant: small-caps
+          text-transform: lowercase
       h2
         font-size: 24px
+        font-family: open-sans, Arial
         font-weight: 700
-        padding: 20px 
+        margin: 10px 0 0
+        padding: 30px
+        position: relative
+        z-index: 9001
         a
           font-variant: small-caps
           text-transform: lowercase
+          text-decoration: none
           color: #EA1E2A
           &:visited
-            color: #222
+            color: #EA1E2A
           &:hover
             color: #222
+          &:active
+            color: #fff
       .page
-        background: #fff
+        z-index: 9001
+        position: relative
         @include grid(6)
         @include omega
+        h3
+          font-family: open-sans, Arial
         .content
           padding: 30px 0 20px
-          background: #fff
           color: #E91914
           p:nth-child(1n)
             @include grid(3)
@@ -192,7 +231,10 @@ blockquote
     .single 
       article
         padding-top: 2em
-      background: #fff
+      header
+        border-right: 1px solid #e9e9e9
+        @include grid(4)
+        @include alpha
       header h2
         @include grid(4)
         @include alpha
@@ -200,23 +242,33 @@ blockquote
         margin-top: 0
         font-size: 32px
         letter-spacing: 5px
-        font-family: lobster, Arial
-        background: #fff
+        font-family: poiret-one, Arial
+        a
+          text-decoration: none
+          &:hover
+            background: #F5F5F5
       .post
-        background: #fff
       .page
-        h1
-          font-size: 2em
-        background: #fff
         @include grid(8)
         @include omega
 
+        div
+          a
+            &:active
+              background: #fff
+          h2
+            letter-spacing: 0
+            text-align: left !important
+            font-family: Arial !important
+        h1
+          font-family: poiret-one, Arial
+          font-size: 3.3em
+        
         h3,
         .h3
-          color: #999
-          font-variant: small-caps
-          text-transform: uppercase
-          font-size: 24px
+          color: #222
+          letter-spacing: 5px
+          font-size: 27px
           margin: 0 0 25px 0
         h4,
         .h4
@@ -245,7 +297,8 @@ body#our-menu
       @include cf
       margin: 15px 0 25px
       dt
-        background: #ccc
+        background: #e9e9e9
+        box-shadow: 0 5px 0 #E91914
         border-bottom: 1px #fff solid
         font-weight: 700
         margin-bottom: 20px
