@@ -15,6 +15,8 @@ get_header(); ?>
 
   <article id="">
 
+    <!0-h1 class="menu-title">Our Meny</h1-->
+
     <nav id="bmc-menu-nav">
       <ul>
         <li><a href="#bmc-menu-cover">Welcome</a></li>
@@ -27,7 +29,7 @@ get_header(); ?>
     <section id="bmc-menu-cover" class="menu">
     <div class="inner">
 
-    <h1>Catering Menu</h1>
+    <h1>Menu</h1>
 
     <section class="lead">
       <h2>Open for Lunch</h2>
@@ -250,10 +252,10 @@ get_header(); ?>
       <dd>
         <ul>
           <li>Basil Ricotta (8 oz.) ........................................................................ 8.50</li>
-        Imported Pecorino Romano ..................................................... 8.75</li>
-        Bread - Fresh Ciabatta (serves 12-18)................................... 11.70</li>
-        Balsamic Glaze (8 oz.)................................................................... 9.50</li>
-        Homemade Cannoli .........................................................1.10 each</li>
+          <li>Imported Pecorino Romano ..................................................... 8.75</li>
+          <li>Bread - Fresh Ciabatta (serves 12-18)................................... 11.70</li>
+          <li>Balsamic Glaze (8 oz.)................................................................... 9.50</li>
+          <li>Homemade Cannoli .........................................................1.10 each</li>
           <li>Place Settings ........................................................................ 1.00 PP
             <aside>
               <p>Includes dinner plate, napkin, fork &amp; knife.</p>

@@ -15,6 +15,8 @@ get_header(); ?>
 
   <article id="">
 
+    <!--h1 class="menu-title">Our Meny</h1-->
+
     <nav id="bmc-menu-nav">
       <ul>
         <li><a href="#bmc-menu-cover">Welcome</a></li>
@@ -27,7 +29,7 @@ get_header(); ?>
     <section id="bmc-menu-cover" class="menu">
     <div class="inner">
 
-    <h1>Catering Menu</h1>
+    <h1>Menu</h1>
 
     <section class="lead">
       <h2>Open for Lunch</h2>
