@@ -58,7 +58,7 @@
   <div class="imprint">
     <div class="inner">
       <p>&copy; 2012 <a href="<?php echo get_bloginfo('url'); ?>">Brooklyn Meatball Company</a>.</p>
-      <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0;position:relative;top:4px;margin-right:3px;opacity:.3" src="http://i.creativecommons.org/l/by-sa/3.0/us/80x15.png"></a>: Built by <a href="http://nerdfiles.net" rel="external">nerdfiles</a>. See <a href="https://github.com/nerdfiles/brooklynmeatballcompany_com">the repo</a>.</p>
+      <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0;position:relative;top:4px;margin-right:3px;opacity:.3" src="http://i.creativecommons.org/l/by-sa/3.0/us/80x15.png"></a>: Built by <a href="http://nerdfiles.net" rel="nofollow external">nerdfiles</a>. See <a href="https://github.com/nerdfiles/brooklynmeatballcompany_com" rel="nofollow external">the repo</a>.</p>
     </div>
   </div><!-- .imprint -->
 
