@@ -1,0 +1,1 @@
+Search.setIndex({objects:{},terms:{index:0,search:0,welcom:0,modul:0,meatbal:0,indic:0,websit:0,content:0,brooklyn:0,tabl:0,compani:0,document:0,page:0},objtypes:{},titles:["Welcome to Brooklyn Meatball Company Website&#8217;s documentation!"],objnames:{},filenames:["index"]})
