@@ -114,15 +114,15 @@ get_header(); ?>
       <dl>
       <dt>CLASSIC</dt>
       <dd>
-      <p>These are the ones Grandma made every Sunday. This generations old family recipe is made with 100% USDA choice beef, fresh herbs, and baked to perfection!</p>
+        <p>These are the ones Grandma made every Sunday. This generations old family recipe is made with 100% USDA choice beef, fresh herbs, and baked to perfection!</p>
       </dd>
       <dt>TURKEY</dt>
       <dd>
-      <p>Made with 100% lean turkey meat for a lighter, leaner, version of the family recipe and still loaded with flavor. Don’t tell Grandma!</p>
+        <p>Made with 100% lean turkey meat for a lighter, leaner, version of the family recipe and still loaded with flavor. Don’t tell Grandma!</p>
       </dd>
       <dt>EGGPLANT</dt>
       <dd>
-      <p>No meat in this one! Made with freshly harvested eggplant, oven roasted to golden brown deliciousness.</p>
+        <p>No meat in this one! Made with freshly harvested eggplant, oven roasted to golden brown deliciousness.</p>
       </dd>
       </dl>
 
@@ -139,42 +139,50 @@ get_header(); ?>
     <h2>2. Choose your sauces</h2>
 
     <dl>
-    <dt>Joey’s Marinara<sup>TM</sup></dt>
-    <dd>
-    <p>Perfectly ripe tomatoes, extra virgin olive oil, fresh garlic, and herbs.</p>
-    <ul>
-      <li>1 QT ............................. 9.75</li>
-      <li>1/2 Gal ......................... 18.25</li>
-      <li>1 Gal ........................... 33.25</li>
-    </ul>
-    </dd>
-    <dt>Spicy Marinara</dt>
-    <dd>
-    <p>Joey’s Marinara packin’ heat.</p>
-    <ul>
-      <li>1 QT ............................. 9.75</li>
-      <li>1/2 Gal ......................... 18.25</li>
-      <li>1 Gal ........................... 33.25</li>
-    </ul>
-    </dd>
-    <dt>Creamy Gorgonzola<sup>*</sup></dt>
-    <dd>
-    <p>Luxurious white sauce made with gorgonzola cheese. Pure indulgence!</p>
-    <ul>
-      <li>1 QT ............................ 15.25</li>
-      <li>1/2 Gal ......................... 27.50</li>
-      <li>1 Gal ........................... 49.75</li>
-    </ul>
-    </dd>
-    <dt>Pesto</dt>
-    <dd>
-    <p>This Italian classic is Bright, lively, super fresh and full of flavor.</p>
-    <ul>
-      <li>1 QT............................ 16.25</li>
-      <li>1/2 Gal ........................ 28.50</li>
-      <li>1 Gal .......................... 50.75</li>
-    </ul>
-    </dd>
+      <dt>Joey’s Marinara<sup>TM</sup></dt>
+
+      <dd>
+      <p>Perfectly ripe tomatoes, extra virgin olive oil, fresh garlic, and herbs.</p>
+      <ul>
+        <li>1 QT ............................. 9.75</li>
+        <li>1/2 Gal ......................... 18.25</li>
+        <li>1 Gal ........................... 33.25</li>
+      </ul>
+      </dd>
+
+      <dt>Spicy Marinara</dt>
+
+      <dd>
+      <p>Joey’s Marinara packin’ heat.</p>
+      <ul>
+        <li>1 QT ............................. 9.75</li>
+        <li>1/2 Gal ......................... 18.25</li>
+        <li>1 Gal ........................... 33.25</li>
+      </ul>
+      </dd>
+
+      <dt>Creamy Gorgonzola<sup>*</sup></dt>
+
+      <dd>
+      <p>Luxurious white sauce made with gorgonzola cheese. Pure indulgence!</p>
+      <ul>
+        <li>1 QT ............................ 15.25</li>
+        <li>1/2 Gal ......................... 27.50</li>
+        <li>1 Gal ........................... 49.75</li>
+      </ul>
+      </dd>
+
+      <dt>Pesto<sup>*</sup></dt>
+
+      <dd>
+      <p>This Italian classic is Bright, lively, super fresh and full of flavor.</p>
+      <ul>
+        <li>1 QT............................ 16.25</li>
+        <li>1/2 Gal ........................ 28.50</li>
+        <li>1 Gal .......................... 50.75</li>
+      </ul>
+      </dd>
+
     </dl>
 
     <h3>Recommended Sauce Ratios</h3>
@@ -205,41 +213,37 @@ get_header(); ?>
       <p>Choose any from below.</p>
 
       <dl>
-
         <dt>Caprese</dt>
-        <dd>
 
+        <dd>
         <p>Fresh Tomatoes, fresh basil, and fresh mozzarella drizzled with imported extra virgin olive oil &amp; balsamic glaze.</p>
 
         <ul>
           <li>Full pan (serves 12 - 16) ....... 54.25</li>
           <li>Half pan (serves 6 - 8) ......... 27.50</li>
         </ul>
-
         </dd>
 
         <dt>House</dt>
+
         <dd>
-        
         <p>Arugula, romaine, baby portobello mushrooms, cherry tomatoes, red onions, crumbled gorgonzola, candied walnuts, apple vinaigrette, and topped with a balsamic glaze drizzle.</p>
         
         <ul>
           <li>Full pan ........................ 51.75</li>
           <li>Half pan ........................ 26.25</li>
         </ul>
-
         </dd>
 
         <dt>Caesar</dt>
-        <dd>
 
+        <dd>
         <p>The Italian classic with homemade croutons and house made dressing.</p>
 
         <ul>
           <li>Full pan ........................ 40.25 </li>
           <li>Half pan......................... 20.50</li>
         </ul>
-
         </dd>
 
       </dl>
@@ -268,6 +272,8 @@ get_header(); ?>
       </dd>
 
     </dl>
+
+    </section><!-- .sides -->
 
     </div>
     </section><!-- .menu -->
@@ -369,7 +375,7 @@ get_header(); ?>
             Saucy Slider ................................................................................................... 2.99
             <aside>
               <p>Your choice of meatball &amp; sauce on a mini brioche bun</p>
-            <aside>
+            </aside>
           </li>
           <li>
             Saucy Sub ................................................................................ 5.99 (half) / 9.99 (whole)

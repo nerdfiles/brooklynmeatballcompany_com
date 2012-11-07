@@ -17,7 +17,8 @@
       //$menuNav.prop('class', (!$menuNav.hasClass('focus')) ? 'focus' : '');
     });
 
-    $menuNav.on('mouseenter', function(e) {
+    $menuNav.on('mouseout', function(e) {
+      $menuNav.removeClass('focused');
     });
 
     $menuNav.find('a').on('click', function(e) {
@@ -47,7 +48,7 @@
             'top': ($(this).scrollTop()/12) + "px"
         });
       });
-    }, { offset: '30%' });
+    }, { offset: '50%' });
   };
 
   BMC['menuorbital'] = function() {
@@ -55,7 +56,7 @@
     
     $ul.bind('stowaway', function() {
       $ul.animate({
-        'left': '-30%'
+        'left': '0'
       }, 500, function() {
         $ul.addClass('stowed');
       });
