@@ -29,9 +29,19 @@
     <h4>Get Social</h4>
     <p>Find us elsewhere on the Web.</p>
     <ul>
-      <li><a href="http://www.facebook.com/pages/Brooklyn-Meatball-Company/260046834011588">Facebook</a></li>
-      <li><a href="http://www.yelp.com/biz/brooklyn-meatball-co-houston-2">Yelp</a></li>
-      <li><a href="http://www.urbanspoon.com/r/8/1681453/restaurant/Downtown/Brooklyn-Meatball-Company-Houston">Urbanspoon</a></li>
+      <li class="fb"><a href="http://www.facebook.com/pages/Brooklyn-Meatball-Company/260046834011588">
+        Facebook
+      </a></li>
+      <li class="yl"><a href="http://www.yelp.com/biz/brooklyn-meatball-co-houston-2">
+        Yelp
+      </a></li>
+      <li class="us"><a href="http://www.urbanspoon.com/r/8/1681453/restaurant/Downtown/Brooklyn-Meatball-Company-Houston">
+        Urbanspoon
+      </a></li>
+      <li class="gp">
+        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <g:plusone></g:plusone>
+      </li>
     </ul>
   </div>
 
@@ -66,6 +76,20 @@
 <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/main.js") ?>
 
 <?php wp_footer(); ?>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36143512-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </body>
 </html>

@@ -34,6 +34,7 @@
 
   <!--script charset="utf-8" src="http://use.edgefonts.net/lobster.js"></script-->
   <script charset="utf-8" src="http://use.edgefonts.net/poiret-one.js"></script>
+  <script src="http://use.edgefonts.net/m-1m.js"></script>
   <script src="http://use.edgefonts.net/open-sans.js"></script> 
 
   <script charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>

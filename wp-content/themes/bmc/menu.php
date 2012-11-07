@@ -43,7 +43,7 @@ get_header(); ?>
     <ul>
       <li><kbd>(713) 751-1700</kbd><br />
       or</li>
-      <li><kbd>(713) MEATBAL</kbd><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>(6328225)</kbd></li>
+      <li><kbd>(713) MEAT-BAL</kbd><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>(6328-225)</kbd></li>
     </ul>
 
     <footer>

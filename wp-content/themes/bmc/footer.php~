@@ -11,7 +11,7 @@
 
   <div class="callout">
     <div class="inner">
-      <h3><a href="/our-menu/meatball-previews/">Meatball Previews</a></h3>
+      <h3><a href="/our-menu/#bmc-menu-takeout">Meatball Previews</a></h3>
       <h4>Family Deal</h4>
       <p>Best Value, Serves 4, 12 Meatballs, sauce, and pasta of choice $29.99</p>
       <p>See our complete <a href="/our-menu/">Menu</a> or give us a call at (713) 751-1700.</p>
@@ -29,9 +29,15 @@
     <h4>Get Social</h4>
     <p>Find us elsewhere on the Web.</p>
     <ul>
-      <li><a href="http://www.facebook.com/pages/Brooklyn-Meatball-Company/260046834011588">Facebook</a></li>
-      <li><a href="http://www.yelp.com/biz/brooklyn-meatball-co-houston-2">Yelp</a></li>
-      <li><a href="http://www.urbanspoon.com/r/8/1681453/restaurant/Downtown/Brooklyn-Meatball-Company-Houston">Urbanspoon</a></li>
+      <li class="fb"><a href="http://www.facebook.com/pages/Brooklyn-Meatball-Company/260046834011588">
+        Facebook
+      </a></li>
+      <li class="yl"><a href="http://www.yelp.com/biz/brooklyn-meatball-co-houston-2">
+        Yelp
+      </a></li>
+      <li class="us"><a href="http://www.urbanspoon.com/r/8/1681453/restaurant/Downtown/Brooklyn-Meatball-Company-Houston">
+        Urbanspoon
+      </a></li>
     </ul>
   </div>
 
@@ -66,6 +72,20 @@
 <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/main.js") ?>
 
 <?php wp_footer(); ?>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36143512-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </body>
 </html>

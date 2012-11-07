@@ -280,6 +280,31 @@ blockquote
 
   @import "plugin_contactform7.sass"
 
+.social-media
+  ul
+    text-align: center
+  .us, .yl, .fb
+    width: 100px
+    @include inline-block
+    margin-right: 10px
+    opacity: .3
+    &:hover
+      opacity: 1
+    text-indent: -9999px
+    a
+      height: 55px
+      display: block
+  .us
+    background: url('../../img-ui/urbanspoon-logo.png') no-repeat
+  .yl
+    background: url('../../img-ui/yelp-logo.png') no-repeat
+  .fb
+    background: url('../../img-ui/facebook-logo.png') no-repeat
+  li 
+    @include inline-block
+    a
+      opacity: .3
+
 ///////////////////////////////////////// pages
 
 kbd
@@ -337,6 +362,8 @@ body#our-menu
         display: block
         text-decoration: none
         padding: 15px 30px 12px
+  #bmc-menu-cover
+    background: url('../../img-ui/menu-bg-1.png') -30px 20px no-repeat
   #bmc-menu-takeout,
   #bmc-menu-cover
     text-align: center
@@ -475,6 +502,7 @@ body#our-menu
       dt:nth-child(2n+1)
       vertical-align: top
         clear: left
+
 
 
 

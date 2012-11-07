@@ -37,21 +37,22 @@
   border: 2px #ea1e2a solid;
   font: 24px poiret-one, Arial;
   padding: 15px 35px;
+  background: white;
   box-shadow: 5px 5px 0 #ea1e2a;
   cursor: pointer;
   width: auto;
 }
-/* line 32, ../sass/plugin_contactform7.sass */
+/* line 33, ../sass/plugin_contactform7.sass */
 .wpcf7-form input.wpcf7-submit:hover {
   opacity: 1;
 }
-/* line 34, ../sass/plugin_contactform7.sass */
+/* line 35, ../sass/plugin_contactform7.sass */
 .wpcf7-form input.wpcf7-submit:active {
   border: 2px black solid;
   box-shadow: 5px 5px 0 black;
   opacity: 1;
 }
-/* line 38, ../sass/plugin_contactform7.sass */
+/* line 39, ../sass/plugin_contactform7.sass */
 .wpcf7-form .wpcf7-not-valid-tip-no-ajax {
   background: white;
   border: 2px solid #ea1e2a;
@@ -63,7 +64,7 @@
   width: 300px;
   color: #222222;
 }
-/* line 49, ../sass/plugin_contactform7.sass */
+/* line 50, ../sass/plugin_contactform7.sass */
 .wpcf7-form .wpcf7-not-valid-tip {
   border: 2px #ea1e2a solid;
   box-shadow: 4px 4px 0 #cccccc;
@@ -71,7 +72,7 @@
   padding: 15px 10px;
   top: -45px;
 }
-/* line 58, ../sass/plugin_contactform7.sass */
+/* line 59, ../sass/plugin_contactform7.sass */
 .wpcf7-form .wpcf7-response-output {
   box-shadow: 5px 5px 0 #cccccc;
   left: -20px;
