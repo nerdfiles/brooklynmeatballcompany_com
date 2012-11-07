@@ -10,12 +10,12 @@
   6. Order system (form, hook up order system to [https://stripe.com/](https://stripe.com/)).
   7. Aggregate existing web presence into blocks.
 
-@public_url [http://brooklynmeatballcompany.com/](http://brooklynmeatballcompany.com/)
-@doc_url [http://brooklynmeatballcompany.com/wp-content/themes/bmc/doc/build/index.html](http://brooklynmeatballcompany.com/wp-content/themes/bmc/doc/build/index.html)
+  - @public_url [http://brooklynmeatballcompany.com/](http://brooklynmeatballcompany.com/)
+  - @doc_url [http://brooklynmeatballcompany.com/wp-content/themes/bmc/doc/build/index.html](http://brooklynmeatballcompany.com/wp-content/themes/bmc/doc/build/index.html)
 
 ## Notes
 
   1. [http://f6design.com/journal/2011/08/06/build-a-parallax-scrolling-website-interface-with-jquery-and-css/](http://f6design.com/journal/2011/08/06/build-a-parallax-scrolling-website-interface-with-jquery-and-css/)
-  2...
+  2. 
 
 
