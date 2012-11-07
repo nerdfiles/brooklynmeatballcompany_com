@@ -72,7 +72,9 @@
     });
 
     $('#bmc-menu-nav').bind('mouseenter', function(e) {
-      $ul.trigger('bringback');
+      if ( $ul.hasClass('sticky') ) {
+        $ul.trigger('bringback');
+      }
     });
 
     $('#bmc-menu-nav ul a').on('click', function(e) {
