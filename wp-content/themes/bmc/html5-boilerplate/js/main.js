@@ -132,7 +132,8 @@
 
   ///////////////////////////////////////////////////
 
-  $(document).ready(function() {
+  //$(document).ready(function() {
+  waitUntilExists(document,function() { // faster @see http://javascriptisawesome.blogspot.com/2011/07/faster-than-jquerydocumentready-wait.html
     BMC.init();
   });
 

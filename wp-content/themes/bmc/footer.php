@@ -68,11 +68,14 @@
 
 <!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery.min.js"></script>
 
 <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/plugins.js") ?>
+
+<?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."vendor/waitUntilExists.js") ?>
 <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."vendor/jquery/scroll.js") ?>
 <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."vendor/jquery/waypoints.min.js") ?>
+
 <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/main.js") ?>
 
 <?php wp_footer(); ?>
