@@ -20,7 +20,7 @@
     $menuNav.on('mouseenter', function(e) {
     });
 
-    $menuNav.on('mouseover', function(e) {
+    $menuNav.find('a').on('click', function(e) {
       if ($menuNav.hasClass('sticky')) {
         $menuNav.trigger('bringback');
       }
@@ -37,7 +37,7 @@
         $menuNav.removeClass('sticky');
       }
 
-      $menuNav.delay(3000).trigger('stowaway');
+      //$menuNav.delay(3000).trigger('stowaway');
 
       $(window).scroll(function() {
         /*if ( $menuNav.hadClass('sticky') ) {
@@ -69,10 +69,6 @@
           $ul.removeClass('stowed');
         });
       }
-    });
-
-    $('#bmc-menu-nav').bind('mouseenter', function(e) {
-      $ul.trigger('bringback');
     });
 
     $('#bmc-menu-nav ul a').on('click', function(e) {

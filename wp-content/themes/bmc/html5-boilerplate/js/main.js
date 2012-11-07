@@ -20,7 +20,7 @@
     $menuNav.on('mouseenter', function(e) {
     });
 
-    $menuNav.on('mouseover', function(e) {
+    $menuNav.find('a').on('click', function(e) {
       if ($menuNav.hasClass('sticky')) {
         $menuNav.trigger('bringback');
       }
@@ -37,7 +37,7 @@
         $menuNav.removeClass('sticky');
       }
 
-      $menuNav.delay(3000).trigger('stowaway');
+      //$menuNav.delay(3000).trigger('stowaway');
 
       $(window).scroll(function() {
         /*if ( $menuNav.hadClass('sticky') ) {
@@ -64,16 +64,10 @@
     $ul.bind('bringback', function() {
       if ($ul.hasClass('stowed')) {
         $ul.animate({
-          'left': '10%'
+          'left': '0'
         }, 500, function() {
           $ul.removeClass('stowed');
         });
-      }
-    });
-
-    $('#bmc-menu-nav').bind('mouseenter', function(e) {
-      if ( $ul.hasClass('sticky') ) {
-        $ul.trigger('bringback');
       }
     });
 
