@@ -17,6 +17,9 @@
   <link rel="dns-prefetch" href="//code.jquery.com" />
   <link rel="dns-prefetch" href="//use.edgefonts.net" />
   <link rel="dns-prefetch" href="//google-analytics.com" />
+  <link rel="dns-prefetch" href="//apis.google.com" />
+  <link rel="dns-prefetch" href="//www.knou.com" />
+  <link rel="dns-prefetch" href="//maps.google.com" />
 
   <title><?php if (!is_home()) { ?><?php wp_title('&laquo;', true, 'right'); ?> <?php } ?><?php bloginfo('name'); ?></title>
   
