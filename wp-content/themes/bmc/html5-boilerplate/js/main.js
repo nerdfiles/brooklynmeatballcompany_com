@@ -5,9 +5,53 @@
 
   BMC.init = function() {
     BMC.maptoggle();
+    BMC.menuorbital();
+    BMC.stickynav();
   };
 
   ///////////////////////////////////////////////////
+  
+  BMC['stickynav'] = function() {
+    var $menuNav = $('#bmc-menu-nav ul');
+    $menuNav.on('mouseover', function(e) {
+      //$menuNav.prop('class', (!$menuNav.hasClass('focus')) ? 'focus' : '');
+    });
+    $menuNav.on('mouseout', function(e) {
+      $menuNav.removeClass('focused');
+    });
+    $menuNav.find('a').on('blur', function(e) {
+      $menuNav.addClass('focused');
+    });
+    $menuNav.waypoint(function(event, direction) {
+      if (direction === 'down') {
+        $menuNav.addClass('sticky');
+      } else {
+        $menuNav.removeClass('sticky');
+      }
+      $(window).scroll(function() {
+        //if ( $menuNav.hadClass('sticky') ) {
+          $menuNav.css({
+              'top': ($(this).scrollTop()/12) + "px"
+          });
+       //}
+      });
+    }, { offset: '30%' });
+  };
+
+  BMC['menuorbital'] = function() {
+    $('#bmc-menu-nav ul a').on('click', function(e) {
+      var stage = 'html,body',
+          target = this.hash,
+          $target = $(target);
+      e.preventDefault();
+      $(stage).stop().animate({
+        'scrollTop': $target.offset().top
+      }, 500, function() {
+        window.location.hash = target
+      });
+
+    });
+  };
   
   BMC['maptoggle'] = function() {
     $('div.home iframe').addClass('hidden').hide();
@@ -57,6 +101,8 @@
 
   ///////////////////////////////////////////////////
 
-  BMC.init();
+  $(document).ready(function() {
+    BMC.init();
+  });
 
 })(jQuery);

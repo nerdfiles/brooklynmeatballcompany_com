@@ -26,6 +26,7 @@
   </div-->
 
   <div class="social-media">
+    <h4>Get Social</h4>
     <p>Find us elsewhere on the Web.</p>
     <ul>
       <li><a href="http://www.facebook.com/pages/Brooklyn-Meatball-Company/260046834011588">Facebook</a></li>
@@ -60,6 +61,8 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
 <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/plugins.js") ?>
+<?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."vendor/jquery/scroll.js") ?>
+<?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."vendor/jquery/waypoints.min.js") ?>
 <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/main.js") ?>
 
 <?php wp_footer(); ?>

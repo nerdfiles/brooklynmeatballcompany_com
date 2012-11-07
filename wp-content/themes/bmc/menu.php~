@@ -15,7 +15,7 @@ get_header(); ?>
 
   <article id="">
 
-    <!0-h1 class="menu-title">Our Meny</h1-->
+    <!--h1 class="menu-title">Our Meny</h1-->
 
     <nav id="bmc-menu-nav">
       <ul>
@@ -43,8 +43,7 @@ get_header(); ?>
     <ul>
       <li><kbd>(713) 751-1700</kbd><br />
       or</li>
-      <li><kbd>(713) MEATBAL</kbd><br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>(6328225)</kbd></li>
+      <li><kbd>(713) MEATBAL</kbd><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>(6328225)</kbd></li>
     </ul>
 
     <footer>
@@ -129,11 +128,11 @@ get_header(); ?>
 
       <p>BMC Recommends 3-4 meatballs per person. Choose any of the above or mix & match.</p>
       <ul>
-        <li>Full pan (serves 18 - 24) 72 meatballs ...................................................................................................................................... 90.00</li>
-        <li>Half pan (serves 9 - 12) 36 meatballs ....................................................................................................................................... 45.00</li>
+        <li>Full pan (serves 18 - 24) 72 meatballs .......................................................................... 90.00</li>
+        <li>Half pan (serves 9 - 12) 36 meatballs ........................................................................... 45.00</li>
       </ul>
 
-    </section>
+    </section><!-- .meatballs -->
 
     <section class="sauces">
 
@@ -144,36 +143,36 @@ get_header(); ?>
     <dd>
     <p>Perfectly ripe tomatoes, extra virgin olive oil, fresh garlic, and herbs.</p>
     <ul>
-      <li>1 QT ........................................... 9.75</li>
-      <li>1/2 Gal .................................... 18.25</li>
-      <li>1 Gal ........................................ 33.25</li>
+      <li>1 QT ............................. 9.75</li>
+      <li>1/2 Gal ......................... 18.25</li>
+      <li>1 Gal ........................... 33.25</li>
     </ul>
     </dd>
     <dt>Spicy Marinara</dt>
     <dd>
     <p>Joey’s Marinara packin’ heat.</p>
     <ul>
-      <li>1 QT .................................. 9.75</li>
-      <li>1/2 Gal ........................... 18.25</li>
-      <li>1 Gal ............................... 33.25</li>
+      <li>1 QT ............................. 9.75</li>
+      <li>1/2 Gal ......................... 18.25</li>
+      <li>1 Gal ........................... 33.25</li>
     </ul>
     </dd>
     <dt>Creamy Gorgonzola<sup>*</sup></dt>
     <dd>
     <p>Luxurious white sauce made with gorgonzola cheese. Pure indulgence!</p>
     <ul>
-      <li>1 QT ..................................... 15.25</li>
-      <li>1/2 Gal ............................... 27.50</li>
-      <li>1 Gal ................................... 49.75</li>
+      <li>1 QT ............................ 15.25</li>
+      <li>1/2 Gal ......................... 27.50</li>
+      <li>1 Gal ........................... 49.75</li>
     </ul>
     </dd>
     <dt>Pesto</dt>
     <dd>
     <p>This Italian classic is Bright, lively, super fresh and full of flavor.</p>
     <ul>
-      <li>1 QT.................................16.25</li>
-      <li>1/2 Gal ............................28.50</li>
-      <li>1 Gal ................................50.75</li>
+      <li>1 QT............................ 16.25</li>
+      <li>1/2 Gal ........................ 28.50</li>
+      <li>1 Gal .......................... 50.75</li>
     </ul>
     </dd>
     </dl>
@@ -181,7 +180,7 @@ get_header(); ?>
     <h3>Recommended Sauce Ratios</h3>
     <p>1 Gal/Full tray Pasta or Meatballs</p>
   
-    </section>
+    </section><!-- .sauces -->
 
     <section class="sides">
 
@@ -194,8 +193,8 @@ get_header(); ?>
       <dd>
         <p>Choice of spaghetti or rigatoni, includes sauce.</p>
         <ul>
-          <li>Full pan (serves 18-24) ............................................................................................................................................................. 50.25</li>
-          <li>Half pan (serves 9 - 12) ............................................................................................................................................................ 25.50</li>
+          <li>Full pan (serves 18-24) .......................................................................................... 50.25</li>
+          <li>Half pan (serves 9 - 12) ......................................................................................... 25.50</li>
         </ul>
       </dd>
 
@@ -213,8 +212,8 @@ get_header(); ?>
         <p>Fresh Tomatoes, fresh basil, and fresh mozzarella drizzled with imported extra virgin olive oil &amp; balsamic glaze.</p>
 
         <ul>
-          <li>Full pan (serves 12 - 16) ................ 54.25</li>
-          <li>Half pan (serves 6 - 8) .................... 27.50</li>
+          <li>Full pan (serves 12 - 16) ....... 54.25</li>
+          <li>Half pan (serves 6 - 8) ......... 27.50</li>
         </ul>
 
         </dd>
@@ -225,8 +224,8 @@ get_header(); ?>
         <p>Arugula, romaine, baby portobello mushrooms, cherry tomatoes, red onions, crumbled gorgonzola, candied walnuts, apple vinaigrette, and topped with a balsamic glaze drizzle.</p>
         
         <ul>
-          <li>Full pan ..........................................................51.75</li>
-          <li>Half pan .........................................................26.25</li>
+          <li>Full pan ........................ 51.75</li>
+          <li>Half pan ........................ 26.25</li>
         </ul>
 
         </dd>
@@ -237,8 +236,8 @@ get_header(); ?>
         <p>The Italian classic with homemade croutons and house made dressing.</p>
 
         <ul>
-          <li>Full pan .............................................40.25 </li>
-          <li>Half pan.............................................20.50</li>
+          <li>Full pan ........................ 40.25 </li>
+          <li>Half pan......................... 20.50</li>
         </ul>
 
         </dd>
@@ -251,18 +250,21 @@ get_header(); ?>
 
       <dd>
         <ul>
-          <li>Basil Ricotta (8 oz.) ........................................................................ 8.50</li>
-          <li>Imported Pecorino Romano ..................................................... 8.75</li>
-          <li>Bread - Fresh Ciabatta (serves 12-18)................................... 11.70</li>
-          <li>Balsamic Glaze (8 oz.)................................................................... 9.50</li>
-          <li>Homemade Cannoli .........................................................1.10 each</li>
-          <li>Place Settings ........................................................................ 1.00 PP
+          <li>Basil Ricotta (8 oz.) ............................................................................................. 8.50</li>
+          <li>Imported Pecorino Romano .......................................................................................... 8.75</li>
+          <li>Bread - Fresh Ciabatta (serves 12-18)............................................................................. 11.70</li>
+          <li>Balsamic Glaze (8 oz.)............................................................................................. 9.50</li>
+          <li>Homemade Cannoli ............................................................................................. 1.10 each</li>
+          <li>Place Settings ................................................................................................. 1.00 PP
             <aside>
               <p>Includes dinner plate, napkin, fork &amp; knife.</p>
-            </aside></li>
-          <li>Heating Kits ................................................................................ 10.00</li>
+            </aside>
+          </li>
+          <li>Heating Kits ..................................................................................................... 10.00</li>
         </ul>
-        <p>Keep food warm with racks and burners, set up included one kit heats one full pan or two half pans</p>
+        <footer>
+          <p>Keep food warm with racks and burners, set up included one kit heats one full pan or two half pans</p>
+        </footer>
       </dd>
 
     </dl>
@@ -298,9 +300,9 @@ get_header(); ?>
         </ul>
 
         <ul>
-          <li>Spaghetti………………………………………… 8.99</li>
-          <li>Rigatoni………………………………………….. 8.99</li>
-          <li>Add a ball…………………………….….. 1.99</li>
+          <li>Spaghetti ...................................................................................................... 8.99</li>
+          <li>Rigatoni ....................................................................................................... 8.99</li>
+          <li>Add a Ball ..................................................................................................... 1.99</li>
         </ul>
 
         <footer>
@@ -325,22 +327,22 @@ get_header(); ?>
           <li>Pesto<sup>*</sup></li>
         </ul>
         <ul>
-          <li>House Salad…………………………................ 9.99
+          <li>House Salad .................................................................................................... 9.99
             <aside>
               <p>Romaine, arugula, baby portobello mushrooms, cherry tomatoes, red onions, gorgonzola cheese, candied walnuts, tossed with house made apple vinaigrette dressing and drizzled with balsamic glaze.</p>
             </aside>
           </li>
-          <li>House Salad…………………………................ 9.99
+          <li>House Salad .................................................................................................... 9.99
             <aside>
               <p>With homemade croutons and house made dressing.</p>
             </aside>
           </li>
-          <li>Caprese Salad…………………………………. 9.99
+          <li>Caprese Salad .................................................................................................. 9.99
             <aside>
-              <p>Fresh tomatoes, fresh basil, &amp; fresh mozzarella drizzled with extra virgin olive oil & balsamic glaze.</p>
+              <p>Fresh tomatoes, fresh basil, &amp; fresh mozzarella drizzled with extra virgin olive oil &amp; balsamic glaze.</p>
             </aside>
           </li>
-        	<li>Add a ball………………………………… 1.99</li>
+        	<li>Add a Ball ..................................................................................................... 1.99</li>
         </ul>
         <footer>
           <p><sup>*</sup> Heart Healthy Low Carb Options</p>
@@ -364,22 +366,22 @@ get_header(); ?>
         </ul>
         <ul>
           <li>
-            Saucy Slider……………………………………… 2.99
+            Saucy Slider .................................................................................................. 2.99
             <aside>
               <p>Your choice of meatball &amp; sauce on a mini brioche bun</p>
             <aside>
           </li>
           <li>
-            Saucy Sub……………………………………....... 5.99 (half) / 9.99 (whole)
+            Saucy Sub ................................................................................ 5.99 (half) / 9.99 (whole)
             <aside>
               <p>2 (on half) or 4 (on whole) meatballs &amp; sauce of choice on a fresh baked baguette topped with arugula and drizzled with balsamic glaze served with a little rigatoni on the side.</p>
               <ul>
-              	<li>Add melted mozzarella.............................50 (half) / 1.00 (whole)</li>
+              	<li>Add melted mozzarella ................................................................ 50 (half) / 1.00 (whole)</li>
               </ul>
             </aside>
           </li>
-          <li>Add a sm. side + drink to any sub or slider………………...3.99</li>
-          <li>Add a drink to any Pasta, Salad, or Sandwich order for only ... .99</li>
+          <li>Add a sm. side + drink to any sub or slider .................................................................... 3.99</li>
+          <li>Add a drink to any Pasta, Salad, or Sandwich order for only ..................................................... .99</li>
         </ul>
         <footer>
           <p><sup>*</sup> Heart Healthy Low Carb Options</p>
@@ -402,12 +404,12 @@ get_header(); ?>
           <li>Pesto<sup>*</sup></li>
         </ul>
         <ul>
-          <li>Saucy Balls<sup>TM</sup>…………………………………….. 4.99
+          <li>Saucy Balls<sup>TM</sup>  ................................................................................................... 4.99
             <aside>
               <p>2 meatballs &amp; sauce of your choice served with basil ricotta &amp; a hunk of bread.</p>
             </aside>
           </li>
-          <li>Add a ball…….………………………………... 1.99</li>
+          <li>Add a ball  ..................................................................................................... 1.99</li>
         </ul>
         <footer>
           <p><sup>*</sup> Heart Healthy Low Carb Options</p>
@@ -416,15 +418,15 @@ get_header(); ?>
       <dt>Sides</dt>
       <dd>
         <ul>
-          <li>Side Pasta………………………………………..…………… 3.99 sm. / 6.99 lg.</li>
-          <li>Side Salad…………………………………………………….. 4.99 sm. / 7.99 lg.</li>
-          <li>Side Sauce……………………………………………………. 1.49</li>
+          <li>Side Pasta  ...................................................................................... 3.99 sm. / 6.99 lg.</li>
+          <li>Side Salad  ...................................................................................... 4.99 sm. / 7.99 lg.</li>
+          <li>Side Sauce  ..................................................................................................... 1.49</li>
         </ul>
       </dd>
       <dt>Drinks</dt>
       <dd>
         <ul>
-          <li>Coke, diet coke, sprite, tea, root beer, dr. pepper, bottled water………. 1.49</li>
+          <li>Coke, diet coke, sprite, tea, root beer, dr. pepper, bottled water  ............................................. 1.49</li>
         </ul>
       </dd>
     </dl>
