@@ -48,7 +48,7 @@
             'top': ($(this).scrollTop()/16) + "px"
         });
       });
-    }, { offset: '-60%' });
+    }, { offset: '5%' });
   };
 
   BMC['menuorbital'] = function() {

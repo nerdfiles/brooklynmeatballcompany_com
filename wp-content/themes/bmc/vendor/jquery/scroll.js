@@ -13,7 +13,7 @@
 	});
 	
 	// Smooth scrolling for internal links
-	/*$("a[href^='#']").click(function(event) {
+	$("a[href^='#']").click(function(event) {
 		event.preventDefault();
 		
 		var $this = $(this),
@@ -26,5 +26,5 @@
 			window.location.hash = target;
 		});
 		
-	});*/
+	});
 })(jQuery);
