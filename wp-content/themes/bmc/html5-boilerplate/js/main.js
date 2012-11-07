@@ -16,7 +16,14 @@
     $menuNav.on('mouseover', function(e) {
       //$menuNav.prop('class', (!$menuNav.hasClass('focus')) ? 'focus' : '');
     });
-    $menuNav.on('mouseout', function(e) {
+
+    $menuNav.on('mouseenter', function(e) {
+    });
+
+    $menuNav.on('mouseover', function(e) {
+      if ($menuNav.hasClass('sticky')) {
+        $menuNav.trigger('bringback');
+      }
       $menuNav.removeClass('focused');
     });
     $menuNav.find('a').on('blur', function(e) {
@@ -26,24 +33,56 @@
       if (direction === 'down') {
         $menuNav.addClass('sticky');
       } else {
+        $menuNav.delay(500).trigger('bringback');
         $menuNav.removeClass('sticky');
       }
+
+      $menuNav.delay(3000).trigger('stowaway');
+
       $(window).scroll(function() {
-        //if ( $menuNav.hadClass('sticky') ) {
-          $menuNav.css({
-              'top': ($(this).scrollTop()/12) + "px"
-          });
-       //}
+        /*if ( $menuNav.hadClass('sticky') ) {
+          $menuNav.trigger('stowaway');
+        }*/
+        $menuNav.css({
+            'top': ($(this).scrollTop()/12) + "px"
+        });
       });
     }, { offset: '30%' });
   };
 
   BMC['menuorbital'] = function() {
+    var $ul = $('#bmc-menu-nav ul');
+    
+    $ul.bind('stowaway', function() {
+      $ul.animate({
+        'left': '-30%'
+      }, 500, function() {
+        $ul.addClass('stowed');
+      });
+    });
+
+    $ul.bind('bringback', function() {
+      if ($ul.hasClass('stowed')) {
+        $ul.animate({
+          'left': '10%'
+        }, 500, function() {
+          $ul.removeClass('stowed');
+        });
+      }
+    });
+
+    $('#bmc-menu-nav').bind('mouseenter', function(e) {
+      $ul.trigger('bringback');
+    });
+
     $('#bmc-menu-nav ul a').on('click', function(e) {
       var stage = 'html,body',
           target = this.hash,
           $target = $(target);
       e.preventDefault();
+
+      $ul.trigger('stowaway');
+
       $(stage).stop().animate({
         'scrollTop': $target.offset().top
       }, 500, function() {
