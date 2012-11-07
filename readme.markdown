@@ -1,5 +1,10 @@
 # brooklynmeatballcompany.com
 
+Some links:
+
+  - @public_url [http://brooklynmeatballcompany.com/](http://brooklynmeatballcompany.com/)
+  - @doc_url [http://brooklynmeatballcompany.com/wp-content/themes/bmc/doc/build/index.html](http://brooklynmeatballcompany.com/wp-content/themes/bmc/doc/build/index.html)
+
 ##Concepts
 
   1. Single page orbital menu with sticky nav.
@@ -9,9 +14,6 @@
   5. Staff pages with Chef and Staff profiles.
   6. Order system (form, hook up order system to [https://stripe.com/](https://stripe.com/)).
   7. Aggregate existing web presence into blocks.
-
-  - @public_url [http://brooklynmeatballcompany.com/](http://brooklynmeatballcompany.com/)
-  - @doc_url [http://brooklynmeatballcompany.com/wp-content/themes/bmc/doc/build/index.html](http://brooklynmeatballcompany.com/wp-content/themes/bmc/doc/build/index.html)
 
 ## Notes
 
