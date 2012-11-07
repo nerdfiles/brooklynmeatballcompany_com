@@ -45,10 +45,10 @@
           $menuNav.trigger('stowaway');
         }*/
         $menuNav.css({
-            'top': ($(this).scrollTop()/12) + "px"
+            'top': ($(this).scrollTop()/16) + "px"
         });
       });
-    }, { offset: '50%' });
+    }, { offset: '-60%' });
   };
 
   BMC['menuorbital'] = function() {
@@ -97,35 +97,30 @@
       $('div.home iframe').prop('class', 
         (!$('div.home iframe').hasClass('hidden')) ? 
           (function() { 
+
             $('div.home')
               .animate({
                 'height': '223px'
               }, 300);
-
             $('div.home iframe')
-              .animate({
-                'height': '223px'
-              }, 300)
               .fadeOut(); 
 
-            $('div.home .page, div.home header h2').fadeIn();
+            $('div.home .page, div.home header h2, .post-edit-link').fadeIn();
 
             $('div.home a.showmap').text('Show on map');
 
             return 'hidden'; 
           })() : 
           (function() { 
+
             $('div.home')
               .animate({
-                'height': '500px'
+                  'height': '500px'
               }, 300);
             $('div.home iframe')
-              .animate({
-                'height': '500px'
-              }, 300)
               .fadeIn(); 
 
-            $('div.home .page, div.home header h2').fadeOut();
+            $('div.home .page, div.home header h2, .post-edit-link').fadeOut();
 
             $('div.home a.showmap').text('Hide map');
 

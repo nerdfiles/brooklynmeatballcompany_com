@@ -13,7 +13,9 @@ get_header(); ?>
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  <article id="">
+  <article id="post-<?php the_ID(); ?>">
+
+    <?php edit_post_link('Update <i>this menu</i>', '<div>', '</div>'); ?>
 
     <!--h1 class="menu-title">Our Meny</h1-->
 
@@ -444,24 +446,17 @@ get_header(); ?>
     </div>
     </section><!-- .menu -->
 
-  </article>
 
-  <!--article id="post-<?php the_ID(); ?>">
+    <?php //edit_post_link('Update <i>' . get_the_title() . '</i> menu', '<div>', '</div>'); ?>
 
-    <?php edit_post_link('Update <i>' . get_the_title() . '</i> menu', '<div>', '</div>'); ?>
-
-    <header class="">
-      <h2><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h2>
-    </header>
-
-    <section class="page">
+    <!--section class="page">
       <div class="content">
         <?php the_content('<p class="serif">Read the rest of this page &raquo;</p>'); ?>
         <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
       </div>
-    </section>
+    </section-->
   
-  </article-->
+  </article>
 
   <?php endwhile; endif; ?>
 

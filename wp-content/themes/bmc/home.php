@@ -15,7 +15,7 @@ get_header(); ?>
 
   <article id="post-<?php the_ID(); ?>">
 
-    <iframe width="940" height="223" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=930+Main+St,+Houston,+TX+77002&amp;sll=29.754542,-95.36253&amp;sspn=0.101191,0.154324&amp;ie=UTF8&amp;hq=&amp;hnear=930+Main+St,+Houston,+Harris,+Texas+77002&amp;t=m&amp;z=14&amp;ll=29.757444,-95.365178&amp;output=embed&amp;iwloc=&amp;"></iframe>
+    <iframe width="940" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=930+Main+Street,+Houston,+TX&amp;aq=0&amp;oq=930+Main&amp;sll=29.854162,-95.373328&amp;sspn=1.617376,2.469177&amp;ie=UTF8&amp;hq=&amp;hnear=930+Main+St,+Houston,+Harris,+Texas+77002&amp;t=p&amp;ll=29.763297,-95.375576&amp;spn=0.018627,0.04034&amp;z=15&amp;output=embed&amp;iwloc=&amp;"></iframe>
 
     <?php edit_post_link('Update <i>the home page</i>', '<div>', '</div>'); ?>
 
