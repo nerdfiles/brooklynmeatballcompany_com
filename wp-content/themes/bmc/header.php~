@@ -18,7 +18,7 @@
   <link rel="dns-prefetch" href="//use.edgefonts.net" />
   <link rel="dns-prefetch" href="//google-analytics.com" />
   <link rel="dns-prefetch" href="//apis.google.com" />
-  <link rel="dns-prefetch" href="//www.knou.com" />
+  <link rel="dns-prefetch" href="//www.khou.com" />
   <link rel="dns-prefetch" href="//maps.google.com" />
 
   <title><?php if (!is_home()) { ?><?php wp_title('&laquo;', true, 'right'); ?> <?php } ?><?php bloginfo('name'); ?></title>
@@ -38,6 +38,7 @@
   <!--script charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script-->
 
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+  <link rel="shortcut icon" href="<?php echo $GLOBALS["TEMPLATE_RELATIVE_URL"]."images/favicon-chick.png"; ?>" type="image/x-icon" />
 
   <?php wp_head(); ?>
 

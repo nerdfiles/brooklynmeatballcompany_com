@@ -10,7 +10,7 @@
   };
 
   ///////////////////////////////////////////////////
-  
+ 
   BMC['stickynav'] = function() {
     var $menuNav = $('#bmc-menu-nav ul');
     $menuNav.on('mouseover', function(e) {

@@ -38,6 +38,7 @@
   <!--script charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script-->
 
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+  <link rel="shortcut icon" href="<?php echo $GLOBALS["TEMPLATE_RELATIVE_URL"]."images/favicon.png"; ?>" type="image/x-icon" />
 
   <?php wp_head(); ?>
 
