@@ -34,7 +34,7 @@
     .jwl_qr_code { border: none !important; }
     .jwl_qr_code img { position: absolute; right: 0; top: -320px; opacity: .3; }
     <?php if (is_front_page()) { ?>
-      .jwl_qr_code img { right: -18px; top: -328px; }
+      .jwl_qr_code img { right: -16px; top: -322px; }
     <?php } ?>
 
     .jwl_qr_code img:hover { opacity: 1; }
