@@ -30,6 +30,18 @@
   <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."compass/stylesheets/screen.css") ?>
   <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."compass/stylesheets/overrides.css") ?>
   <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."compass/stylesheets/plugin_contactform7.css") ?>
+  <style>
+    .jwl_qr_code { border: none !important; }
+    .jwl_qr_code img { position: absolute; right: 0; top: -320px; opacity: .3; }
+    <?php if (is_front_page()) { ?>
+      .jwl_qr_code img { right: -18px; top: -322px; }
+    <?php } ?>
+
+    .jwl_qr_code img:hover { opacity: 1; }
+    #qr_header { display: none !important; }
+    #qr_main { text-align: right; padding: 0; }
+    #qr_main div:nth-child(even) { display: none !important; }
+  </style>
 
   <script charset="utf-8" src="http://use.edgefonts.net/poiret-one.js"></script>
   <script charset="utf-8" src="http://use.edgefonts.net/m-1m.js"></script>

@@ -449,12 +449,12 @@ get_header(); ?>
 
     <?php //edit_post_link('Update <i>' . get_the_title() . '</i> menu', '<div>', '</div>'); ?>
 
-    <!--section class="page">
+    <section class="page">
       <div class="content">
-        <?php //the_content('<p class="serif">Read the rest of this page &raquo;</p>'); ?>
+        <?php the_content('<p class="serif">Read the rest of this page &raquo;</p>'); ?>
         <?php //wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
       </div>
-    </section-->
+    </section>
   
   </article>
 
