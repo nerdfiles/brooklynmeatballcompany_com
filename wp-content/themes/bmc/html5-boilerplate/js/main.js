@@ -6,7 +6,8 @@
   BMC.init = function() {
     BMC.maptoggle();
     BMC.menuorbital();
-    BMC.stickynav();
+    if (!$.browser.msie)
+      BMC.stickynav();
   };
 
   ///////////////////////////////////////////////////
