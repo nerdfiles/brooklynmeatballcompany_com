@@ -20,6 +20,7 @@
   <link rel="dns-prefetch" href="//apis.google.com" />
   <link rel="dns-prefetch" href="//www.khou.com" />
   <link rel="dns-prefetch" href="//maps.google.com" />
+  <link rel="dns-prefetch" href="//api.qrserver.com/" />
 
   <title><?php if (!is_home()) { ?><?php wp_title('&laquo;', true, 'right'); ?> <?php } ?><?php bloginfo('name'); ?></title>
   
@@ -37,6 +38,11 @@
 
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <link rel="shortcut icon" href="<?php echo $GLOBALS["TEMPLATE_RELATIVE_URL"]."images/favicon.png"; ?>" type="image/x-icon" />
+  <style charset="utf-8">
+  <?php if (is_front_page()) : ?>
+    .jwl_qr_code img { right: -17px; top: -322px; }
+  <?php endif; ?>
+  </style>
 
   <?php wp_head(); ?>
 

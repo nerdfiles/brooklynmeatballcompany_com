@@ -6,7 +6,8 @@
   BMC.init = function() {
     BMC.maptoggle();
     BMC.menuorbital();
-    BMC.stickynav();
+    if (!$.browser.msie)
+      BMC.stickynav();
   };
 
   ///////////////////////////////////////////////////
@@ -30,6 +31,11 @@
     $menuNav.find('a').on('blur', function(e) {
       $menuNav.addClass('focused');
     });
+
+    $('.site-footer').waypoint(function(event, direction) {
+      $menuNav.trigger('stowaway');
+    });
+
     $menuNav.waypoint(function(event, direction) {
       if (direction === 'down') {
         $menuNav.addClass('sticky');
@@ -45,7 +51,7 @@
           $menuNav.trigger('stowaway');
         }*/
         $menuNav.css({
-            'top': ($(this).scrollTop()/16) + "px"
+            'top': ($(this).scrollTop()/17) + "px"
         });
       });
     }, { offset: '5%' });

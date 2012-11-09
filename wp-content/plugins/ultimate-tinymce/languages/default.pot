@@ -1,0 +1,684 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Tinymce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-25 04:45-0500\n"
+"PO-Revision-Date: 2012-04-25 04:46-0500\n"
+"Last-Translator: Josh Lobe <joshlobe@joshlobe.com>\n"
+"Language-Team: Josh Lobe <joshlobe@joshlobe.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin_functions.php:12
+#, php-format
+msgid "<span style=\"color:green;\">Thank you for choosing Ultimate Tinymce.</span><br />Please visit the <a href=\"admin.php?page=ultimate-tinymce\">Ultimate Tinymce Settings Page</a> to begin customization of your editor.<br />If you are upgrading from a previous version, you will need to <a href=\"admin.php?page=ultimate-tinymce\">reconfigure</a> your button row settings.<span style=\"float:right;\"><a href=\"admin.php?page=ultimate-tinymce%1$s\">Hide Notice</a></span>"
+msgstr ""
+
+#: admin_functions.php:85
+msgid "Number of posts to show:"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Font Select Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Font Size Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Cut Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Copy Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Paste Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Background Color Picker Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Foreground Color Picker Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Horizontal Rule Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Visual Aid Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Anchor Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Subscript Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Superscript Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Search Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Replace Button"
+msgstr ""
+
+#: admin_functions.php:138
+msgid "Insert Date/Time Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Style Select Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Table Controls Dropdown Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Emotions Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Advanced Image Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Preview Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Citations Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Abbreviations Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Acronym Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Delete Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Insert Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Attributes Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Styleprops Box"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "HTML Code Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "HTML Code Magic Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Insert Media Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Insert YouTube Video Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Image Map Editor Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Toggle Visual Characters Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Print Button"
+msgstr ""
+
+#: admin_functions.php:141
+msgid "Shortcodes Select Button"
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Change the color of the Editor."
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Enable NextPage (PageBreak) Button."
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Add ID Column to page/post admin list."
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Allow shortcode usage in widget text areas."
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Use PHP Text Widget"
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Enable Line Break Shortcode"
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Enable Columns Shortcodes"
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Enable Advanced Insert/Edit Link Button"
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Enable \"Div Clear\" Buttons"
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Remove <b>p</b> and <b>br</b> tags"
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Save scrollbar position in editor"
+msgstr ""
+
+#: admin_functions.php:144
+msgid "Add a Signoff Shortcode"
+msgstr ""
+
+#: admin_functions.php:147
+msgid "Enable dashboard widget"
+msgstr ""
+
+#: admin_functions.php:147
+msgid "Enable admin bar link"
+msgstr ""
+
+#: admin_functions.php:150
+msgid "Editor"
+msgstr ""
+
+#: main.php:59
+msgid "Settings"
+msgstr ""
+
+#: main.php:60
+msgid "Support Forum"
+msgstr ""
+
+#: main.php:109
+msgid "Ultimate TinyMCE"
+msgstr ""
+
+#: main.php:153
+msgid "Do you enjoy Ultimate Tinymce?"
+msgstr ""
+
+#: main.php:154
+msgid "I've noticed you've been using Ultimate Tinymce for at least 30 days. This plugin takes me countless hours of work to develop and maintain. If you continue to use it, please consider donating a token of your appreciation!"
+msgstr ""
+
+#: main.php:163
+msgid "Alternatively, tweet about it so others can find out about Ultimate Tinymce."
+msgstr ""
+
+#: main.php:168
+msgid "(do not show me this pop-up again)"
+msgstr ""
+
+#: main.php:195
+msgid "Help Documentation"
+msgstr ""
+
+#: main.php:195
+msgid "<ul><li class=\"help_tab_list_image\">The best resource for expedited help is my <a target=\"_blank\" href=\"http://www.forum.joshlobe.com/\">Support Forum</a>.</li><li class=\"help_tab_list_image\">You can also visit the <a target=\"_blank\" href=\"http://www.joshlobe.com/2011/10/ultimate-tinymce/\">Plugin Page</a> to read user comments.</ul>"
+msgstr ""
+
+#: main.php:196
+msgid "Settings Page Tips"
+msgstr ""
+
+#: main.php:196
+msgid "Here are some important items to remember regarding the new settings page.<br /><ul><li class=\"help_tab_list_image\">Each option has a dedicated help icon.  Clicking the help icon (blue question mark) for a specific option will open a new window with a unique help file.</li><li class=\"help_tab_list_image\">Boxes can be opened/closed and sorted by clicking and dragging the box headers.  Boxes can also be enabled/disabled via the \"Screen Options\" tab in the upper-right corner.</li><li class=\"help_tab_list_image\">Set your screen layout to two columns (via Screen Options) for best results.</li><li class=\"help_tab_list_image\">The \"Row Selection\" button allows you to choose which row of the visual editor the button will appear.</ul>"
+msgstr ""
+
+#: main.php:203
+msgid "Ultimate Tinymce Help<br /><br /><a target=\"_blank\" href=\"http://www.forum.joshlobe.com/\">Support Forum</a>"
+msgstr ""
+
+#: main.php:224
+msgid "Additional Resources"
+msgstr ""
+
+#: main.php:225
+msgid "TinyMCE + Firefox = Best Experience"
+msgstr ""
+
+#: main.php:226
+msgid "Please VOTE and click WORKS."
+msgstr ""
+
+#: main.php:227
+msgid "Bloggers!!"
+msgstr ""
+
+#: main.php:228
+msgid "Feedback"
+msgstr ""
+
+#: main.php:229
+msgid "Plugin Poll"
+msgstr ""
+
+#: main.php:231
+msgid "Buttons Group 1"
+msgstr ""
+
+#: main.php:232
+msgid "Buttons Group 2"
+msgstr ""
+
+#: main.php:233
+msgid "Miscellaneous Features"
+msgstr ""
+
+#: main.php:234
+msgid "User Roles"
+msgstr ""
+
+#: main.php:235
+msgid "Admin Options"
+msgstr ""
+
+#: main.php:250
+msgid "Ultimate Tinymce "
+msgstr ""
+
+#: main.php:250
+msgid "Admin Settings Page"
+msgstr ""
+
+#: main.php:262
+msgid "Plugin Addons"
+msgstr ""
+
+#: main.php:263
+msgid "Donations"
+msgstr ""
+
+#: main.php:264
+msgid "Spread the Word"
+msgstr ""
+
+#: main.php:265
+msgid "Admin Tips"
+msgstr ""
+
+#: main.php:266
+msgid "Default Settings"
+msgstr ""
+
+#: main.php:267
+msgid "Uninstall Plugin"
+msgstr ""
+
+#: main.php:271
+msgid "Plugin Addons:"
+msgstr ""
+
+#: main.php:272
+msgid "These addons provide additional features for Ultimate TinyMCE.  Click the title to view the download page."
+msgstr ""
+
+#: main.php:275
+msgid "<a target=\"_blank\" title=\"Easily Integrate Google Webfonts into your Website.\" href=\"http://www.plugins.joshlobe.com/ultimate-tinymce-google-webfonts/\"><span style=\"font-family:'Unlock', cursive;\">Google Webfonts</span></a>"
+msgstr ""
+
+#: main.php:275
+#: main.php:287
+#: main.php:300
+#: main.php:314
+#: main.php:330
+msgid "(Toggle)"
+msgstr ""
+
+#: main.php:278
+#: main.php:290
+#: main.php:303
+#: main.php:317
+#: main.php:333
+msgid "<span style=\"color:green;\">Activated</span>"
+msgstr ""
+
+#: main.php:281
+#: main.php:293
+#: main.php:306
+#: main.php:320
+#: main.php:336
+msgid "<span style=\"color:red;\">Not Activated</span>"
+msgstr ""
+
+#: main.php:282
+msgid "Choose any combination of Google Webfonts, and add them to the font dropdown selector.<br /><br />Fonts are rendered on both the editor screen, and to all front-end viewers."
+msgstr ""
+
+#: main.php:287
+msgid "<a target=\"_blank\" title=\"Easily add custom styles to your content.\" href=\"http://www.plugins.joshlobe.com/ultimate-tinymce-custom-styles/\"><span style=\"font-family:'Unlock', cursive;\">Custom Styles</span></a>"
+msgstr ""
+
+#: main.php:294
+msgid "Define unlimited custom styles, and add them to the styleselect dropdown list.<br /><br />Styles are rendered in both the editor screen and the front end of the website."
+msgstr ""
+
+#: main.php:300
+msgid "<a target=\"_blank\" title=\"Add a list of over 80 predefined styles to your editor.\" href=\"http://www.plugins.joshlobe.com/predefined-custom-styles/\"><span style=\"font-family:'Unlock', cursive;\">Pre-Defined Styles</span></a>"
+msgstr ""
+
+#: main.php:307
+msgid "A collection of my custom styles.  No need to create your own.<br /><br />Install this plugin and have instant access to over 80 custom styles (and growing)."
+msgstr ""
+
+#: main.php:314
+msgid "<a target=\"_blank\" title=\"Apply six unique color settings to your admin panel.\" href=\"http://www.plugins.joshlobe.com/wp-admin-colors/\"><span style=\"font-family:'Unlock', cursive;\">WP Admin Colors</span></a>"
+msgstr ""
+
+#: main.php:321
+msgid "Here is a compliment to the color selection for the tinymce editor. This addon will provide a choice of six unique stylesheets to apply to the entire admin panel dashboard."
+msgstr ""
+
+#: main.php:330
+msgid "<a target=\"_blank\" title=\"Take powerful control over the visual tinymce editor.\" href=\"http://www.plugins.joshlobe.com/ultimate-tinymce-advanced-configuration/\"><span style=\"font-family:'Unlock', cursive;\">Advanced Configuration</span></a>"
+msgstr ""
+
+#: main.php:337
+msgid "Take advanced control over your visual tinymce editor.  Control settings such as button placement, font sizes, date and time formats, and more."
+msgstr ""
+
+#: main.php:349
+msgid "Donations:"
+msgstr ""
+
+#: main.php:351
+msgid "Support the Developer"
+msgstr ""
+
+#: main.php:352
+msgid "Developing this awesome plugin took a lot of effort and time; months and months of continuous voluntary unpaid work."
+msgstr ""
+
+#: main.php:361
+msgid "If you like this plugin or if you are using it for commercial websites, please consider a donation to the author to help support future updates and development."
+msgstr ""
+
+#: main.php:365
+msgid "<span class=\"content_wrapper_title\">Main uses of Donations</span><ul class=\"help_tab_list_image\"><li>Web Hosting Fees</li><li>Cable Internet Fees</li><li>Time/Value Reimbursement</li><li>Motivation for Continuous Improvements</li><li>Sunday Father-Daughter Day</li></ul>"
+msgstr ""
+
+#: main.php:369
+msgid "Donate Securely via Paypal"
+msgstr ""
+
+#: main.php:384
+msgid "Spread the Word:"
+msgstr ""
+
+#: main.php:387
+msgid "Blog about this Plugin"
+msgstr ""
+
+#: main.php:393
+msgid "<ul class=\"help_tab_list_image\"><li>Do you like this plugin, and use it regularly on your site?</li><li>Why not write a brief article recommending it to your readers and other wordpress blogger buddies?</li><li>Include a link to the plugin download page to make it easy for your readers to access.</li></ul>"
+msgstr ""
+
+#: main.php:398
+msgid "Vote and Click Works"
+msgstr ""
+
+#: main.php:404
+msgid "Please take a few moments to visit the plugin download page to vote and click \"Works\".  You must have an account on wordpress to rate and vote. Signing up is quick and easy.<br /><br />Also, each time a new plugin update is available, it resets the \"Works\" count.  So, please do this each time you update the plugin.<br /><br /><a target=\"_blank\" href=\"http://wordpress.org/extend/plugins/ultimate-tinymce/\">Ultimate Tinymce Wordpress Page</a>"
+msgstr ""
+
+#: main.php:409
+msgid "Twitter & Facebook"
+msgstr ""
+
+#: main.php:422
+msgid "Tips and Tricks for the Admin Panel"
+msgstr ""
+
+#: main.php:424
+msgid "<span class=\"content_wrapper_title\">Screen Options:</span><ul class=\"help_tab_list_image\"><li>Click the \"Screen Options\" tab in the upper-right corner to enable further customization.</li><li>Set the Screen Columns to \"2\" for best results.</li><li>Decide which Meta-Boxes to show or hide.</li><li>Selections are saved in the database.</li></ul>"
+msgstr ""
+
+#: main.php:427
+msgid "<span class=\"content_wrapper_title\">Meta Boxes:</span><ul class=\"help_tab_list_image\"><li>Each Meta-Box can be clicked to collapse/expand the contents of the box.</li><li>Boxes can be sorted by clicking and dragging the title area to a new location.</li><li>Open/Closed status and sorting arrangement are saved in the database.  So each time the page is visited; the last chosen layout remains.</li></ul>"
+msgstr ""
+
+#: main.php:430
+msgid "<span class=\"content_wrapper_title\">Button Row Selection:</span><ul class=\"help_tab_list_image\"><li>Each button from this plugin can be assigned to one of the four rows of the editor.</li><li>For suggested best results, set all buttons used in \"Group One Buttons\" to Row 3 and set all buttons used in \"Group Two Buttons\" to Row 4.  <em>This is only recommended, and not mandatory.</em></li><li>If the buttons scroll off the editor screen, come back here and select a different row for those buttons.</li></ul>"
+msgstr ""
+
+#: main.php:436
+msgid "Load developers suggested settings."
+msgstr ""
+
+#: main.php:444
+msgid "Uninstall Plugin & Delete Database Entries:"
+msgstr ""
+
+#: main.php:601
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: main.php:617
+#: main.php:624
+#: main.php:632
+#: main.php:640
+#: main.php:648
+msgid "Update Options"
+msgstr ""
+
+#: main.php:656
+msgid "Get help from the Support Forum."
+msgstr ""
+
+#: main.php:658
+msgid "Screencast part one"
+msgstr ""
+
+#: main.php:660
+msgid "Screencast part two"
+msgstr ""
+
+#: main.php:662
+msgid "Get help from my personal blog."
+msgstr ""
+
+#: main.php:664
+msgid "Post a thread in the Wordpress Forums."
+msgstr ""
+
+#: main.php:666
+msgid "Email me directly using my contact form."
+msgstr ""
+
+#: main.php:668
+msgid "Subscribe to my RSS Feed."
+msgstr ""
+
+#: main.php:670
+msgid "Follow me on "
+msgstr ""
+
+#: main.php:670
+msgid "Facebook"
+msgstr ""
+
+#: main.php:670
+msgid " and "
+msgstr ""
+
+#: main.php:670
+msgid "Twitter"
+msgstr ""
+
+#: main.php:674
+msgid "In all honesty, the tinymce editor works best with the Mozilla Firefox browser.  If you are not a Firefox user, you might want to consider giving it a try when creating your content.  You can download the free browser by clicking the image below."
+msgstr ""
+
+#: main.php:680
+msgid "Click Here to Vote and click \"Works\"..."
+msgstr ""
+
+#: main.php:680
+msgid "Voting helps my plugin get more exposure and higher rankings on the searches.<br /><br />Clicking \"Works\" on the Wordpress plugin download page shows others that Ultimate TinyMCE is stable, and encourages their download."
+msgstr ""
+
+#: main.php:680
+msgid "Please help spread this wonderful plugin by showing your support.  Thank you!"
+msgstr ""
+
+#: main.php:685
+msgid "Like this plugin?  Blog about it on your website, link to my plugin page on my website <a target=\"_blank\" href=\"http://www.joshlobe.com/2011/10/ultimate-tinymce/\">HERE</a>, and I will add your website link here."
+msgstr ""
+
+#: main.php:685
+msgid "<br /><br /><strong>Special Thanks to these bloggers:</strong><br /><ul><li><a href=\"http://www.buzzing-t.nl/\" target=\"_blank\">Buzzing-t.nl</a></li><li><a href=\"http://onewhole.eu/\" target=\"_blank\">Onewhole.eu</a></li><li><a href=\"http://www.vanytastisch.ch/\" target=\"_blank\">Vanytastisch.ch</a></li><li><a href=\"http://animereviews.co\" target=\"_blank\">Animereviews.co</a></li><li><a href=\"http://blogigs.com/how-to-make-a-attractive-blog-post/\" target=\"_blank\">Blogigs</a></li><li><a href=\"http://www.untetheredincome.com/articles/wordpress/best-wordpress-plugins-2012/\" target=\"_blank\">Untethered Income</a></li><li><a href=\"http://www.bowierocks.com\" target=\"_blank\">BowieRocks</a></li></ul>"
+msgstr ""
+
+#: main.php:689
+msgid "Please take a moment to complete the short feedback form below.  Your input is greatly appreciated.  All input fields are optional."
+msgstr ""
+
+#: main.php:741
+msgid "New Plugin Features..."
+msgstr ""
+
+#: main.php:741
+msgid "There are a few features I have been wanting to implement; but have found they are going to require more work than I originally anticipated.<br /><br />In the meantime, I'd like to take a poll of which features you consider to be of a higher priority.  Please vote on your favorite requested feature.  You can vote once per day.<br /><br />"
+msgstr ""
+
+#: options_callback_functions.php:5
+#: options_callback_functions.php:8
+msgid "<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong><u>Description</u></strong><span style=\"margin-left:200px;\"><strong><u>Enable</u></strong></span><span style=\"margin-left:20px;\"><strong><u>Image</u></strong></span><span style=\"margin-left:35px;\"><strong><u>Help</u></strong></span><span style=\"margin-left:20px;\"><strong><u>Row Selection</u></strong></span></p>"
+msgstr ""
+
+#: options_callback_functions.php:11
+#: options_callback_functions.php:14
+msgid " "
+msgstr ""
+
+#: options_callback_functions.php:17
+msgid "The options set above are available to the site administrator by default.<br />This feature will enable the editor for other user roles.  Multiple roles can be selected."
+msgstr ""
+
+#: options_callback_functions.php:491
+msgid "Don't miss the <a target=\"_blank\" href=\"http://www.plugins.joshlobe.com/wp-admin-colors/\">WP Admin Colors</a> addon."
+msgstr ""
+
+#: options_callback_functions.php:525
+msgid "Simply use the <b>[break]</b> shortcode"
+msgstr ""
+
+#: options_callback_functions.php:530
+msgid "Ex. <b>[one_half]</b>This is the left column.<b>[/one_half]</b> <b>[one_half_last]</b>This is the right column.<b>[/one_half_last]</b>"
+msgstr ""
+
+#: options_callback_functions.php:545
+msgid "(Disable wpautop) - <b>Read the help file first</b>."
+msgstr ""
+
+#: options_callback_functions.php:550
+msgid "Restore scrollbar position after saving post/page content."
+msgstr ""
+
+#: options_callback_functions.php:558
+msgid "<br />Insert the above code using the <b>[signoff]</b> shortcode within your post."
+msgstr ""
+
+#: options_functions.php:323
+msgid "ID"
+msgstr ""
+
+#: options_functions.php:351
+msgid "Arbitrary text, HTML, or PHP Code"
+msgstr ""
+
+#: options_functions.php:353
+msgid "PHP Code"
+msgstr ""
+
+#: options_functions.php:388
+msgid "Title:"
+msgstr ""
+
+#: options_functions.php:393
+msgid "Automatically add paragraphs."
+msgstr ""
+
+#: includes/defaults.php:27
+msgid "Load Default Settings"
+msgstr ""
+
+#: includes/defaults.php:32
+#: includes/defaults.php:54
+msgid "You must also check the confirm box before default options will be loaded."
+msgstr ""
+
+#: includes/defaults.php:38
+msgid "<ul class=\"help_tab_list_image\"><li>Load developers suggested default settings.</li><li>Basically, two additional rows will be added to the editor (rows 3 and 4).  Each with approximately 15 to 19 buttons each.</li><li>Options are still freely customizable, and can be tweaked after default settings are loaded.</li><li>Remember you might need to click the \"show/hide kitchen sink\" button in row 1 of your editor to expand row 2 buttons.</li></ul>"
+msgstr ""
+
+#: includes/defaults.php:42
+msgid "<b>Please confirm before proceeding</b><br /><br />"
+msgstr ""
+
+#: includes/defaults.php:43
+msgid "Load Defaults"
+msgstr ""
+
+#: includes/uninstall.php:30
+msgid "Uninstall Ultimate Tinymce"
+msgstr ""
+
+#: includes/uninstall.php:36
+#: includes/uninstall.php:55
+msgid "You must also check the confirm box before options will be uninstalled and deleted."
+msgstr ""
+
+#: includes/uninstall.php:41
+msgid "<ul class=\"help_tab_list_image\"><li>The options for this plugin are not removed upon deactivation to ensure that no data is lost unintentionally.</li><li>If you wish to remove all plugin information from your database be sure to run this uninstall utility first.</li><li>This is a great way to \"reset\" the plugin, in case you experience problems with the editor.</li><li>This option is NOT reversible. Ultimate Tinymce plugin settings will need to be re-configured if deleted.</li></ul>"
+msgstr ""
+
+#: includes/uninstall.php:43
+msgid "Please confirm before proceeding<br /><br />"
+msgstr ""
+
+#: includes/uninstall.php:44
+msgid "Uninstall"
+msgstr ""
+

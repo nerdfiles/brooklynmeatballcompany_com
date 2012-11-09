@@ -1,0 +1,51 @@
+******************************
+                   Word Press
+          cs_CZ lokalizace pluginu
+               Ultimate TinyMCE
+******************************
+Urceno pro verzi pluginu:  1.8
+Datum vydani:       22.04.2012
+---------------------------------------
+Autor:               Pavel Bilek
+Email:        info@chcistranky.eu
+ICQ:                236 996 598
+www:   http://www.chcistranky.eu
+---------------------------------------
+
+=====
+Obsah
+=====
+I.)   Popis instalace
+II.)  Licencni podminky
+
+===================
+I.) Popis instalace
+===================
+!!!Pozor!!! Pred vlastni instalaci cestiny se doporucuje provest zalohu dat.
+
+1.) Rozbalte zkomprimovany balicek pomoci programu na kompresi formátu ZIP.
+2.) Prihlaste se pres FTP do slozky s Vasi instalaci Word Pressu.
+3.) Zkopirujte lokalizacni soubory (*.po *.mo) do adresare:
+     "www_root/wp-content/plugins/ultimate-tinymce/languages".
+4.) Pokud se po nacteni stranky cestina nezobrazi:
+  a.) Vymazte cache Vaseho prohlizece a znovu nactete Vasi stranku.
+  b.) Zkontrolujte zda je jako vychozi jazykove nastaveni Word Pressu cs_CZ.
+======================
+II.) Licencni podminky
+======================
+Pro vsechny ceske jazykove soubory ktere jsou nabizeny zdarma,
+je nutne dodrzet tyto podminky pro jejich uziti:
+
+1.) Nejdulezitejsi podminkou je zachovani veskerych autorskych odkazu, 
+     ktere jsou umisteny v techto souborech.
+2.) Cestinu lze dale sirit jakymkoliv elektronickym prostredkem, 
+     ale vzdy musi zustat zachovany autorske odkazy.
+3.) Jazykove soubory muzete libovolne upravit dle svych predstav, 
+     ale vzdy musi zustat zachovany autorske odkazy.
+4.) Cestiny je mozne sirit pouze ZDARMA.
+5.) Uzivatel nema vyhradni pravo k uziti techto jazykovych souboru.
+
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+Pro vice informaci navstivte http://www.chcistranky.eu/faq/casto-kladene-dotazy/
+nebo pouzijte kontaktni formular na http://www.chcistranky.eu/kontakt

@@ -21,6 +21,8 @@ get_header(); ?>
 
     <nav id="bmc-menu-nav">
       <ul>
+        <?php $slug = sanitize_title( get_the_title(), $fallback_title ); ?>
+        <li><a href="#<?php echo $slug; ?>">Back to Top</a></li>
         <li><a href="#bmc-menu-cover">Welcome</a></li>
         <li><a href="#bmc-menu-takeout">Takeout</a></li>
         <li><a href="#bmc-menu-catering">Catering</a></li>
