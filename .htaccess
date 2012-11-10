@@ -17,3 +17,15 @@ RewriteRule . /brooklynmeatballcompany_com/index.php [L]
 </IfModule>
 
 # END WordPress
+
+<IfModule pagespeed_module>  
+    ModPagespeed on  
+    # using commands,filters etc  
+</IfModule> 
+
+<ifModule mod_deflate.c>  
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript  
+</ifModule>  
+
+Header unset ETag  
+FileETag None  

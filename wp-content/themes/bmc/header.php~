@@ -8,6 +8,15 @@
 
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]--> <!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]--> <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
+<?php  
+if ( substr_count( $_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip' ) ) {  
+  ob_start( "ob_gzhandler" );  
+}  
+else {  
+  ob_start();  
+}  
+?>  
+
 <head>
 
   <meta charset="utf-8" />

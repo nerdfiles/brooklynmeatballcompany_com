@@ -3,7 +3,7 @@ RewriteEngine On
 
 # DirectoryIndex index.html index.php
 #AddType x-mapp-php5 .php .html .htm
-AddType text/css .css 
+AddType text/css .css
 AddDefaultCharset utf-8
 
 # BEGIN WordPress
@@ -13,9 +13,16 @@ RewriteBase /brooklynmeatballcompany_com/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+RewriteRule . /brooklynmeatballcompany_com/index.php [L]
 </IfModule>
 
 # END WordPress
 
+<IfModule pagespeed_module>  
+    ModPagespeed on  
+    # using commands,filters etc  
+</IfModule> 
 
+<ifModule mod_deflate.c>  
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript  
+</ifModule>  
