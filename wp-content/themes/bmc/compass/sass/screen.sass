@@ -324,6 +324,27 @@ sup
 body#our-menu 
   h1.menu-title
     font-size: 40px
+
+  section.sauces
+    dl
+      @include cf
+      margin: 1em 0
+      padding: 2em 0
+      border-top: 1px #e9e9e9 solid
+      border-bottom: 1px #e9e9e9 solid
+      dt
+        float: left
+        width: 12%
+        padding: 0 2.5%
+        color: #E91914
+        &:nth-child(5)
+          clear: left
+      dd
+        padding-top: 0
+        width: 33%
+        float: left
+
+
   section.menu
     ul
       li
@@ -376,60 +397,58 @@ body#our-menu
   #bmc-menu-takeout,
   #bmc-menu-cover
     text-align: center
-  #bmc-menu-catering
-    section
-      @include cf
-    .meatballs
-    dl
-      @include cf
-      position: relative
-    dt
-      @include inline-block
-      width: 33%
-      text-align: center
-      color: #E91914
-      float: left
-      clear: left
-    dd
-      float: left
-      clear: left
 
-    dl dl dd
-      vertical-align: top
-    .sides
-      dt
-        font-size: 28px
-        margin: 0
-      dl > dt
-        position: relative
-      dl dd
-        vertical-align: top
-      dl dl dt 
-        font-size: 20px
+  #bmc-menu-catering
+
+    section.sides
       dl
-        & > dt, 
-        & > dd
-          display: block
-          width: 100%
-          border-bottom: none
+        dt
+          color: #E91914
+          text-transform: uppercase
+          font-size: 24px
+      // salads sides
+      dd
+        position: relative
         dl
-          dt, dd
+          @include cf
+          margin: 1em 0
+          border-top: 1px #e9e9e9 solid
+          border-bottom: 1px #e9e9e9 solid
+          padding: 2em 0
           dt
-            width: 33%
-            @include inline-block
+            padding: 0 2.5%
+            &:nth-child(5)
+              clear: left
+            font-size: 16px
+            color: #E91914
+            width: 10%
+            float: left
           dd
             width: 33%
-            @include inline-block
-            vertical-align: top
-            border-bottom: 1px #e9e9e9 solid
-    dd
-      width: 33%
-      padding-top: 2em
-      @include inline-block
-      vertical-align: top
-      padding-bottom: 2em
-      margin-bottom: 1.5em
-      border-bottom: 1px #e9e9e9 solid
+            float: left
+
+    section.meatballs
+      dl
+        margin: 1em 0
+        position: relative
+        @include cf
+        padding: 2em 0
+        border-top: 1px #e9e9e9 solid
+        border-bottom: 1px #e9e9e9 solid
+        dt, dd
+          vertical-align: top
+        dt
+          float: left
+          width: 10%
+          padding: 0 2.5%
+          color: #E91914
+          &:nth-child(5)
+            clear: left
+          color: #E91914
+        dd
+          float: left
+          width: 33%
+
   #bmc-menu-main
     dl > dt
       text-transform: uppercase
