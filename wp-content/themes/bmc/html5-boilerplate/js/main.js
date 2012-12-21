@@ -41,7 +41,7 @@
         $menuNav.addClass('sticky');
       } else {
         $menuNav.delay(500).trigger('bringback');
-        $menuNav.removeClass('sticky');
+        //$menuNav.removeClass('sticky');
       }
 
       //$menuNav.delay(3000).trigger('stowaway');
@@ -89,7 +89,7 @@
       $(stage).stop().animate({
         'scrollTop': $target.offset().top
       }, 500, function() {
-        window.location.hash = target
+        //window.location.hash = target
       });
 
     });

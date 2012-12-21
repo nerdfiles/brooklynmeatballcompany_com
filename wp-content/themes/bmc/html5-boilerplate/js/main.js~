@@ -32,7 +32,7 @@
       $menuNav.addClass('focused');
     });
 
-    $('.site-footer').waypoint(function(event, direction) {
+    $('#bmc-menu-takeout').waypoint(function(event, direction) {
       $menuNav.trigger('stowaway');
     });
 
@@ -41,7 +41,7 @@
         $menuNav.addClass('sticky');
       } else {
         $menuNav.delay(500).trigger('bringback');
-        $menuNav.removeClass('sticky');
+        //$menuNav.removeClass('sticky');
       }
 
       //$menuNav.delay(3000).trigger('stowaway');

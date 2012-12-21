@@ -22,9 +22,21 @@ body
   font-family: Helvetica, sans-serif
   font-size: 16px
   text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-font-smoothing: antialiased
+  -o-font-smoothing: antialiased
+  font-smoothing: antialiased
   p
     margin: 0 0 1em
 
+input,
+select,
+textarea
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-font-smoothing: antialiased
+  -o-font-smoothing: antialiased
+  font-smoothing: antialiased
 
 h1
   font-family: open-sans, sans-serif
@@ -369,6 +381,7 @@ body#our-menu
     ul.sticky
       opacity: .45
       position: fixed
+      z-index: 9001
       li
         display: block !important
     ul:hover,
@@ -450,6 +463,25 @@ body#our-menu
           width: 33%
 
   #bmc-menu-main
+    dl
+      dd:nth-of-type(1),
+      dd:nth-of-type(2),
+      dd:nth-of-type(3),
+      dd:nth-of-type(4)
+        p
+          &:nth-of-type(2),
+          &:nth-of-type(3)
+            @include grid(3)
+            padding-top: 5px
+          &:nth-of-type(2)
+            @include alpha
+        & > ul
+          &:nth-of-type(1),
+          &:nth-of-type(2)
+            @include grid(3)
+          &:nth-of-type(2)
+            @include omega
+
     dl > dt
       text-transform: uppercase
     aside
@@ -474,6 +506,8 @@ body#our-menu
     dt
       color: #E91914
       font-size: 28px
+      margin: 1.7em 0 1em
+
   section.menu
     .lead 
       text-align: center
@@ -488,7 +522,7 @@ body#our-menu
     h2
       text-transform: uppercase
       color: #E91914
-      margin: 1em 0
+      margin: 1.7345em 0
     h3
       clear: left
       font-weight: 700
