@@ -57,7 +57,7 @@
 
   <div class="imprint">
     <div class="inner">
-      <p>&copy; 2012 <a href="<?php echo get_bloginfo('url'); ?>">Brooklyn Meatball Company</a> &#8260; <a href="/terms/">Terms</a> <?php if (is_user_logged_in()) { ?>&#8260; <a href="/wp-admin/">Dash</a> &#8260; <a href="/wp-content/themes/bmc/doc/build/index.html">Docs</a><?php } ?></p>
+    <p>&copy; 2012 <a href="<?php echo get_bloginfo('url'); ?>">Brooklyn Meatball Company</a> &#8260; <a href="/terms/">Terms</a> <?php if (is_user_logged_in()) { ?>&#8260; <a href="/dash/">Dash</a> &#8260; <?php } else { ?> &#8260; <a href="/dash/">Login</a> &#8260; <?php } ?> <a href="/wp-content/themes/bmc/doc/build/index.html">Docs</a></p>
       <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img title="Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0)" alt="Creative Commons License" style="border-width:0;position:relative;top:4px;margin-right:3px;opacity:.3" src="http://i.creativecommons.org/l/by-sa/3.0/us/80x15.png"></a>: Built by <a href="http://nerdfiles.net" rel="nofollow external">nerdfiles</a>. See <a href="https://github.com/nerdfiles/brooklynmeatballcompany_com" rel="nofollow external">the repo</a>. &nbsp;&nbsp; <a href="http://lint.brihten.com/html/report?u=http%3A//brooklynmeatballcompany.com&s=1111111"><img src="http://badges.brihten.com/lint/badge-small.png" style="border:0;vertical-align:middle;" alt="Nice HTML" /></a></p>
     </div>
   </div><!-- .imprint -->
