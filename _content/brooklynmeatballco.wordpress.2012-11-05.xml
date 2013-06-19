@@ -255,7 +255,7 @@ joe@joegalluzzi.com]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Order</title>
+		<title><a id="chownow-order-online">Order</a></title>
 		<link>http://localhost:8888/brooklynmeatballcompany_com/order/</link>
 		<pubDate>Mon, 24 Sep 2012 22:54:49 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
