@@ -21,3 +21,5 @@ license.txt
 wp-config.php
 wp-content/w3-total-cache-config.php
 wp-content/w3tc/objectcache/*
+
+_source/
