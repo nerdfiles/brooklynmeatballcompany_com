@@ -191,7 +191,7 @@ blockquote div {
 }
 /* line 8, ../sass/_site_header.sass */
 .page-wrapper .site-header a {
-  background: url("../../images/BMC-LOGO.jpg") no-repeat;
+  background: url("../../images/logo.png") no-repeat;
   display: inline-block;
   width: 300px;
   height: 179px;
@@ -1215,6 +1215,7 @@ body#our-menu .content dl dt {
   margin-right: 10px;
   width: 300px;
   margin-left: 0;
+  clear: left;
 }
 /* line 553, ../sass/screen.sass */
 body#our-menu .content dl dd {

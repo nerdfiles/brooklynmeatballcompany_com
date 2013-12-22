@@ -17,10 +17,8 @@
   <link rel="dns-prefetch" href="//code.jquery.com" />
   <link rel="dns-prefetch" href="//use.edgefonts.net" />
   <link rel="dns-prefetch" href="//google-analytics.com" />
-  <link rel="dns-prefetch" href="//apis.google.com" />
-  <link rel="dns-prefetch" href="//www.khou.com" />
   <link rel="dns-prefetch" href="//maps.google.com" />
-  <link rel="dns-prefetch" href="//api.qrserver.com/" />
+  <!-- <link rel="dns&#45;prefetch" href="//api.qrserver.com/" /> -->
 
   <title><?php if (!is_home()) { ?><?php wp_title('&laquo;', true, 'right'); ?> <?php } ?><?php bloginfo('name'); ?></title>
   
