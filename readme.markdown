@@ -17,12 +17,12 @@ Some links:
 
 ##Stack
 
-    MAMP
-    Wordpress 3.x
-    Compass
-    SASS
-    JavaScript, jQuery
-    [wp-cli](http://wp-cli.org/)
+* MAMP
+* Wordpress 3.x
+* Compass
+* SASS
+* JavaScript, jQuery
+* [wp-cli](http://wp-cli.org/)
 
 ##Notes
 
